@@ -1,0 +1,72 @@
+﻿{
+  "CandidateLists": [
+    {
+      "CandidateListId": 1,
+      "Title": "野菜",
+      "DisplayOrder": 1,
+      "ColorID": 3,
+      "IconName": "🥬",
+      "CandidateListItems": [
+        {
+          "Name": "キャベツ",
+          "Detail": "",
+          "DisplaySeq": 1
+        },
+        {
+          "Name": "レタス",
+          "Detail": "",
+          "DisplaySeq": 2
+        },
+        {
+          "Name": "サニーレタス",
+          "Detail": "",
+          "DisplaySeq": 3
+        },
+        {
+          "Name": "トマト🍅",
+          "Detail": "",
+          "DisplaySeq": 4
+        },
+        {
+          "Name": "大葉",
+          "Detail": "",
+          "DisplaySeq": 5
+        }
+      ]
+    },
+    {
+      "CandidateListId": 2,
+      "Title": "肉",
+      "DisplayOrder": 2,
+      "ColorID": 7,
+      "IconName": "🥩",
+      "CandidateListItems": [
+        {
+          "Name": "豚こま",
+          "Detail": "",
+          "DisplaySeq": 1
+        },
+        {
+          "Name": "鶏もも",
+          "Detail": "",
+          "DisplaySeq": 2
+        },
+        {
+          "Name": "ひき肉",
+          "Detail": "",
+          "DisplaySeq": 3
+        },
+        {
+          "Name": "ウインナー",
+          "Detail": "",
+          "DisplaySeq": 4
+        },
+        {
+          "Name": "ベーコン",
+          "Detail": "",
+          "DisplaySeq": 5
+        }
+      ]
+    }
+  ]
+}

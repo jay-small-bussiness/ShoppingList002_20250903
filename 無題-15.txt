@@ -1,0 +1,800 @@
+13:11 でビルドが開始されました...
+1>------ ビルド開始: プロジェクト: ShoppingList002, 構成: Release Any CPU ------
+C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ShoppingList002.csproj を復元しました (559 ミリ秒)。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\AppShell.xaml.cs(12,7,12,28): warning CS0105: 'ShoppingList002.Views' の using ディレクティブは、この名前空間で既に使用されています
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\ColorUiModel.cs(6,26,6,32): warning CS8765: パラメーター 'obj' の型の NULL 値の許容が、オーバーライドされたメンバーと一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\BaseViewModel.cs(8,50,8,65): warning CS8612: 'event PropertyChangedEventHandler BaseViewModel.PropertyChanged' の型における参照型の Null 許容性が、暗黙的に実装されるメンバー 'event PropertyChangedEventHandler? INotifyPropertyChanged.PropertyChanged' と一致しません。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\BaseViewModel.cs(10,83,10,87): warning CS8625: null リテラルを null 非許容参照型に変換できません。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\BaseViewModel.cs(13,109,13,113): warning CS8625: null リテラルを null 非許容参照型に変換できません。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(452,50,452,65): warning CS0108: 'CandidateListPageViewModel.PropertyChanged' は継承されたメンバー 'ObservableObject.PropertyChanged' を非表示にします。非表示にする場合は、キーワード new を使用してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\CandidateListItemUiModel.cs(27,51,27,66): warning CS0108: 'CandidateListItemUiModel.PropertyChanged' は継承されたメンバー 'ObservableObject.PropertyChanged' を非表示にします。非表示にする場合は、キーワード new を使用してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\CandidateListItemUiModel.cs(28,24,28,41): warning CS0108: 'CandidateListItemUiModel.OnPropertyChanged(string)' は継承されたメンバー 'ObservableObject.OnPropertyChanged(string?)' を非表示にします。非表示にする場合は、キーワード new を使用してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\ActionTypeToBackgroundColorConverter.cs(12,23,12,30): warning CS8767: 'object ActionTypeToBackgroundColorConverter.Convert(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'value' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.Convert(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\ActionTypeToBackgroundColorConverter.cs(12,23,12,30): warning CS8767: 'object ActionTypeToBackgroundColorConverter.Convert(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'parameter' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.Convert(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\ActionTypeToBackgroundColorConverter.cs(25,23,25,34): warning CS8767: 'object ActionTypeToBackgroundColorConverter.ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'value' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\ActionTypeToBackgroundColorConverter.cs(25,23,25,34): warning CS8767: 'object ActionTypeToBackgroundColorConverter.ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'parameter' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\ActionTypeToColorConverter.cs(7,23,7,30): warning CS8767: 'object ActionTypeToColorConverter.Convert(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'value' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.Convert(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\ActionTypeToColorConverter.cs(7,23,7,30): warning CS8767: 'object ActionTypeToColorConverter.Convert(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'parameter' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.Convert(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\ActionTypeToColorConverter.cs(19,23,19,34): warning CS8767: 'object ActionTypeToColorConverter.ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'value' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\ActionTypeToColorConverter.cs(19,23,19,34): warning CS8767: 'object ActionTypeToColorConverter.ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'parameter' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\BoolToColorConverter.cs(7,23,7,30): warning CS8767: 'object BoolToColorConverter.Convert(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'value' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.Convert(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\BoolToColorConverter.cs(7,23,7,30): warning CS8767: 'object BoolToColorConverter.Convert(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'parameter' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.Convert(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\BoolToColorConverter.cs(24,23,24,34): warning CS8767: 'object BoolToColorConverter.ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'value' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\BoolToColorConverter.cs(24,23,24,34): warning CS8767: 'object BoolToColorConverter.ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'parameter' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\IValueConverter.cs(8,23,8,30): warning CS8767: 'object SelectedItemEqualityConverter.Convert(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'value' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.Convert(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\IValueConverter.cs(8,23,8,30): warning CS8767: 'object SelectedItemEqualityConverter.Convert(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'parameter' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.Convert(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\IValueConverter.cs(20,23,20,34): warning CS8767: 'object SelectedItemEqualityConverter.ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'value' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\IValueConverter.cs(20,23,20,34): warning CS8767: 'object SelectedItemEqualityConverter.ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'parameter' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\SplashPage.xaml.cs(8,12,8,22): warning CS8618: null 非許容の フィールド '_init' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、フィールド を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\ColorUiModel.cs(4,19,4,23): warning CS8618: null 非許容の プロパティ 'Name' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\ColorUiModel.cs(5,18,5,28): warning CS8618: null 非許容の プロパティ 'ColorValue' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\AppShell.xaml.cs(49,27,49,48): warning CS1998: この非同期メソッドには 'await' 演算子がないため、同期的に実行されます。'await' 演算子を使用して非ブロッキング API 呼び出しを待機するか、'await Task.Run(...)' を使用してバックグラウンドのスレッドに対して CPU 主体の処理を実行することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\SplashPage.xaml.cs(26,9,26,28): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\BaseViewModel.cs(8,50,8,65): warning CS8618: null 非許容の イベント 'PropertyChanged' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、イベント を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\ShoppingListUiModel.cs(10,23,10,27): warning CS8618: null 非許容の フィールド 'name' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、フィールド を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\ShoppingListUiModel.cs(17,23,17,36): warning CS8618: null 非許容の フィールド 'categoryTitle' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、フィールド を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\ShoppingListUiModel.cs(23,22,23,37): warning CS8618: null 非許容の プロパティ 'BackgroundColor' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\ShoppingListPageViewModel.cs(31,21,31,67): warning CS4014: この呼び出しを待たないため、現在のメソッドの実行は、呼び出しが完了するまで続行します。呼び出しの結果に 'await' 演算子を適用することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\ShoppingListPageViewModel.cs(27,42,27,62): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\CandidateListItemModelConverter.cs(43,26,43,35): warning CS8601: Null 参照代入の可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\CandidateCategoryModelConverter.cs(12,41,12,45): warning CS8603: Null 参照戻り値である可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\VersionDbModel.cs(14,23,14,32): warning CS8618: null 非許容の プロパティ 'DbVersion' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\ColorMasterDbModel.cs(13,23,13,40): warning CS8618: null 非許容の プロパティ 'UnSelectedHexCode' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\ColorMasterDbModel.cs(16,23,16,38): warning CS8618: null 非許容の プロパティ 'SelectedHexCode' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\ColorMasterDbModel.cs(19,23,19,41): warning CS8618: null 非許容の プロパティ 'PreSelectedHexCode' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\ColorMasterDbModel.cs(21,23,21,27): warning CS8618: null 非許容の プロパティ 'Name' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\CandidateListItemUiModel.cs(12,24,12,28): warning CS8618: null 非許容の フィールド 'name' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、フィールド を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\CandidateListItemUiModel.cs(25,23,25,38): warning CS8618: null 非許容の フィールド 'backgroundColor' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、フィールド を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\CandidateListItemDbModel.cs(17,23,17,27): warning CS8618: null 非許容の プロパティ 'Name' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\CandidateListItemDbModel.cs(19,23,19,29): warning CS8618: null 非許容の プロパティ 'Detail' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\CandidateCategoryDbModel.cs(14,23,14,28): warning CS8618: null 非許容の プロパティ 'Title' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\CandidateCategoryDbModel.cs(23,23,23,31): warning CS8618: null 非許容の プロパティ 'IconName' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\AppSettingDbModel.cs(9,23,9,26): warning CS8618: null 非許容の プロパティ 'Key' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\AppSettingDbModel.cs(10,23,10,28): warning CS8618: null 非許容の プロパティ 'Value' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\ActivityLogPageViewModel.cs(44,9,44,33): warning CS4014: この呼び出しを待たないため、現在のメソッドの実行は、呼び出しが完了するまで続行します。呼び出しの結果に 'await' 演算子を適用することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\ActivityLogDbModel.cs(12,23,12,33): warning CS8618: null 非許容の プロパティ 'ActionType' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\ActivityLogDbModel.cs(14,23,14,31): warning CS8618: null 非許容の プロパティ 'ItemName' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\ActivityLogDbModel.cs(15,23,15,35): warning CS8618: null 非許容の プロパティ 'CategoryName' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\ActivityLogDbModel.cs(16,23,16,34): warning CS8618: null 非許容の プロパティ 'Description' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\ActivityLogDbModel.cs(17,23,17,28): warning CS8618: null 非許容の プロパティ 'Actor' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\EditCategoryPopupPage.xaml.cs(13,12,13,33): warning CS8618: null 非許容の フィールド '_serviceProvider' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、フィールド を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\CandidateCategoryUiModel.cs(13,23,13,39): warning CS8618: null 非許容の フィールド '_backgroundColor' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、フィールド を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\ActivityLogUiModel.cs(12,23,12,32): warning CS8618: null 非許容の プロパティ 'Timestamp' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\ActivityLogUiModel.cs(13,23,13,33): warning CS8618: null 非許容の プロパティ 'ActionType' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\ActivityLogUiModel.cs(14,23,14,31): warning CS8618: null 非許容の プロパティ 'ItemName' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\ActivityLogUiModel.cs(15,23,15,35): warning CS8618: null 非許容の プロパティ 'CategoryName' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\ActivityLogUiModel.cs(16,23,16,28): warning CS8618: null 非許容の プロパティ 'Actor' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\JsonModels\JsonMapping.cs(11,49,11,63): warning CS8618: null 非許容の プロパティ 'CandidateLists' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\JsonModels\CandidateListItemJsonModel.cs(11,23,11,27): warning CS8618: null 非許容の プロパティ 'Name' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\JsonModels\CandidateListItemJsonModel.cs(12,23,12,29): warning CS8618: null 非許容の プロパティ 'Detail' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\JsonModels\CandidateCategoryJsonModel.cs(12,23,12,28): warning CS8618: null 非許容の プロパティ 'Title' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\JsonModels\CandidateCategoryJsonModel.cs(15,23,15,31): warning CS8618: null 非許容の プロパティ 'IconName' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\JsonModels\CandidateCategoryJsonModel.cs(16,49,16,67): warning CS8618: null 非許容の プロパティ 'CandidateListItems' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\InitializationService.cs(30,17,30,36): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\EditCategoryPopupViewModel.cs(72,46,72,61): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\EditCategoryPopupViewModel.cs(78,49,78,64): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\EditCategoryPopupViewModel.cs(87,23,87,38): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\CandidateCategoryPage.xaml.cs(30,73,30,80): warning CS8604: 'CandidateCategoryDbModel CandidateCategoryModelConverter.ToDbModel(CandidateCategoryUiModel uiModel)' 内のパラメーター 'uiModel' に Null 参照引数がある可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\CandidateCategoryPage.xaml.cs(20,12,20,33): warning CS8618: null 非許容の プロパティ 'CategoryTitle' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\CandidateCategoryPage.xaml.cs(20,12,20,33): warning CS8618: null 非許容の プロパティ 'CategoryTitleWithEmoji' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\ServiceHelper.cs(15,20,15,55): warning CS8603: Null 参照戻り値である可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\EditCategoryPopupViewModel.cs(99,23,99,38): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\EditCategoryPopupViewModel.cs(99,39,99,43): warning CS8625: null リテラルを null 非許容参照型に変換できません。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\ServiceHelper.cs(20,20,20,63): warning CS8603: Null 参照戻り値である可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\ServiceHelper.cs(11,40,11,48): warning CS8618: null 非許容の プロパティ 'Services' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\CandidateListPage.xaml.cs(20,12,20,29): warning CS8618: null 非許容の プロパティ 'CategoryTitle' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\CandidateListPage.xaml.cs(20,12,20,29): warning CS8618: null 非許容の プロパティ 'CategoryTitleWithEmoji' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\CandidateListPage.xaml.cs(30,9,30,95): warning CS4014: この呼び出しを待たないため、現在のメソッドの実行は、呼び出しが完了するまで続行します。呼び出しの結果に 'await' 演算子を適用することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\EditCandidateItemPopup.xaml.cs(35,9,35,24): warning CS0618: 'MessagingCenter' は旧形式です ('We recommend migrating to `CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger`: https://www.nuget.org/packages/CommunityToolkit.Mvvm')
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\EditCandidateItemPopup.xaml.cs(41,9,41,24): warning CS0618: 'MessagingCenter' は旧形式です ('We recommend migrating to `CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger`: https://www.nuget.org/packages/CommunityToolkit.Mvvm')
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateCategoryViewModel.cs(79,21,79,56): warning CS4014: この呼び出しを待たないため、現在のメソッドの実行は、呼び出しが完了するまで続行します。呼び出しの結果に 'await' 演算子を適用することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateCategoryViewModel.cs(57,45,57,53): warning CS8604: 'Task CandidateCategoryViewModel.OnCategoryTappedAsync(CandidateCategoryUiModel category)' 内のパラメーター 'category' に Null 参照引数がある可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateCategoryViewModel.cs(71,39,71,47): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateCategoryViewModel.cs(79,21,79,39): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateCategoryViewModel.cs(103,40,103,44): warning CS8625: null リテラルを null 非許容参照型に変換できません。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\EditCategoryPopup.xaml.cs(32,33,32,106): warning CS8601: Null 参照代入の可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\EditCategoryPopup.xaml.cs(41,29,41,41): warning CS8601: Null 参照代入の可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\EditCategoryPopup.xaml.cs(49,23,49,42): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\EditCategoryPopup.xaml.cs(49,23,49,51): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\EditCategoryPopup.xaml.cs(21,16,21,42): warning CS8618: null 非許容の プロパティ 'EditingTitle' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\EditCategoryPopup.xaml.cs(21,16,21,42): warning CS8618: null 非許容の プロパティ 'SelectedColor' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\ShoppingListService.cs(138,40,138,44): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(77,13,77,28): warning CS0618: 'MessagingCenter' は旧形式です ('We recommend migrating to `CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger`: https://www.nuget.org/packages/CommunityToolkit.Mvvm')
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(94,13,94,28): warning CS0618: 'MessagingCenter' は旧形式です ('We recommend migrating to `CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger`: https://www.nuget.org/packages/CommunityToolkit.Mvvm')
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(64,83,64,100): warning CS8622: 'Task CandidateListPageViewModel.OnItemTappedAsync(CandidateListItemUiModel item)' のパラメーター 'item' の型における参照型の NULL 値の許容が、ターゲット デリゲート 'Func<CandidateListItemUiModel?, Task>' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(74,76,74,86): warning CS8622: 'void CandidateListPageViewModel.MoveItemUp(CandidateListItemUiModel item)' のパラメーター 'item' の型における参照型の NULL 値の許容が、ターゲット デリゲート 'Action<CandidateListItemUiModel?>' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(75,78,75,90): warning CS8622: 'void CandidateListPageViewModel.MoveItemDown(CandidateListItemUiModel item)' のパラメーター 'item' の型における参照型の NULL 値の許容が、ターゲット デリゲート 'Action<CandidateListItemUiModel?>' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(76,78,76,90): warning CS8622: 'void CandidateListPageViewModel.ShowItemMenu(CandidateListItemUiModel item)' のパラメーター 'item' の型における参照型の NULL 値の許容が、ターゲット デリゲート 'Action<CandidateListItemUiModel?>' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(54,16,54,42): warning CS8618: null 非許容の フィールド 'categoryTitle' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、フィールド を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(54,16,54,42): warning CS8618: null 非許容の フィールド 'categoryTitleWithEmoji' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、フィールド を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(54,16,54,42): warning CS8618: null 非許容の プロパティ 'AddToShoppingListCommand' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(54,16,54,42): warning CS8618: null 非許容の イベント 'PropertyChanged' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、イベント を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(129,27,129,46): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(129,27,129,55): warning CS8604: 'Task<object?> PopupExtensions.ShowPopupAsync<EditCandidateItemPopup>(Page page, EditCandidateItemPopup popup, CancellationToken token = default(CancellationToken))' 内のパラメーター 'page' に Null 参照引数がある可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateCategoryViewModel.cs(216,40,216,48): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(438,26,438,40): warning CS8601: Null 参照代入の可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\DatabaseService.cs(174,28,174,32): warning CS8603: Null 参照戻り値である可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\DatabaseService.cs(182,28,182,32): warning CS8603: Null 参照戻り値である可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\DatabaseService.cs(190,24,190,28): warning CS8603: Null 参照戻り値である可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\DatabaseService.cs(422,24,422,28): warning CS8603: Null 参照戻り値である可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\SplashPage.xaml.cs(7,45,7,50): warning CS0169: フィールド 'SplashPage._init' は使用されていません
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(452,50,452,65): warning CS0067: イベント 'CandidateListPageViewModel.PropertyChanged' は使用されていません
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\EditCategoryPopupPage.xaml.cs(10,39,10,55): warning CS0169: フィールド 'EditCategoryPopupPage._serviceProvider' は使用されていません
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\AppShell.xaml.cs(12,7,12,28): warning CS0105: 'ShoppingList002.Views' の using ディレクティブは、この名前空間で既に使用されています
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\ColorUiModel.cs(6,26,6,32): warning CS8765: パラメーター 'obj' の型の NULL 値の許容が、オーバーライドされたメンバーと一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\ActionTypeToBackgroundColorConverter.cs(12,23,12,30): warning CS8767: 'object ActionTypeToBackgroundColorConverter.Convert(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'value' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.Convert(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\ActionTypeToBackgroundColorConverter.cs(12,23,12,30): warning CS8767: 'object ActionTypeToBackgroundColorConverter.Convert(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'parameter' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.Convert(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\ActionTypeToBackgroundColorConverter.cs(25,23,25,34): warning CS8767: 'object ActionTypeToBackgroundColorConverter.ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'value' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\ActionTypeToBackgroundColorConverter.cs(25,23,25,34): warning CS8767: 'object ActionTypeToBackgroundColorConverter.ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'parameter' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\ActionTypeToColorConverter.cs(7,23,7,30): warning CS8767: 'object ActionTypeToColorConverter.Convert(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'value' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.Convert(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\ActionTypeToColorConverter.cs(7,23,7,30): warning CS8767: 'object ActionTypeToColorConverter.Convert(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'parameter' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.Convert(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\ActionTypeToColorConverter.cs(19,23,19,34): warning CS8767: 'object ActionTypeToColorConverter.ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'value' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\ActionTypeToColorConverter.cs(19,23,19,34): warning CS8767: 'object ActionTypeToColorConverter.ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'parameter' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\BoolToColorConverter.cs(7,23,7,30): warning CS8767: 'object BoolToColorConverter.Convert(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'value' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.Convert(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\BoolToColorConverter.cs(7,23,7,30): warning CS8767: 'object BoolToColorConverter.Convert(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'parameter' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.Convert(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\BoolToColorConverter.cs(24,23,24,34): warning CS8767: 'object BoolToColorConverter.ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'value' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\BoolToColorConverter.cs(24,23,24,34): warning CS8767: 'object BoolToColorConverter.ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'parameter' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\IValueConverter.cs(8,23,8,30): warning CS8767: 'object SelectedItemEqualityConverter.Convert(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'value' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.Convert(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\IValueConverter.cs(8,23,8,30): warning CS8767: 'object SelectedItemEqualityConverter.Convert(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'parameter' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.Convert(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\IValueConverter.cs(20,23,20,34): warning CS8767: 'object SelectedItemEqualityConverter.ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'value' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\IValueConverter.cs(20,23,20,34): warning CS8767: 'object SelectedItemEqualityConverter.ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'parameter' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\BaseViewModel.cs(8,50,8,65): warning CS8612: 'event PropertyChangedEventHandler BaseViewModel.PropertyChanged' の型における参照型の Null 許容性が、暗黙的に実装されるメンバー 'event PropertyChangedEventHandler? INotifyPropertyChanged.PropertyChanged' と一致しません。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\BaseViewModel.cs(10,83,10,87): warning CS8625: null リテラルを null 非許容参照型に変換できません。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\BaseViewModel.cs(13,109,13,113): warning CS8625: null リテラルを null 非許容参照型に変換できません。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\CandidateListItemUiModel.cs(27,51,27,66): warning CS0108: 'CandidateListItemUiModel.PropertyChanged' は継承されたメンバー 'ObservableObject.PropertyChanged' を非表示にします。非表示にする場合は、キーワード new を使用してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\CandidateListItemUiModel.cs(28,24,28,41): warning CS0108: 'CandidateListItemUiModel.OnPropertyChanged(string)' は継承されたメンバー 'ObservableObject.OnPropertyChanged(string?)' を非表示にします。非表示にする場合は、キーワード new を使用してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(452,50,452,65): warning CS0108: 'CandidateListPageViewModel.PropertyChanged' は継承されたメンバー 'ObservableObject.PropertyChanged' を非表示にします。非表示にする場合は、キーワード new を使用してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\SplashPage.xaml.cs(8,12,8,22): warning CS8618: null 非許容の フィールド '_init' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、フィールド を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\ColorUiModel.cs(4,19,4,23): warning CS8618: null 非許容の プロパティ 'Name' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\ColorUiModel.cs(5,18,5,28): warning CS8618: null 非許容の プロパティ 'ColorValue' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\AppShell.xaml.cs(49,27,49,48): warning CS1998: この非同期メソッドには 'await' 演算子がないため、同期的に実行されます。'await' 演算子を使用して非ブロッキング API 呼び出しを待機するか、'await Task.Run(...)' を使用してバックグラウンドのスレッドに対して CPU 主体の処理を実行することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\SplashPage.xaml.cs(26,9,26,28): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\EditCategoryPopupPage.xaml.cs(13,12,13,33): warning CS8618: null 非許容の フィールド '_serviceProvider' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、フィールド を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\VersionDbModel.cs(14,23,14,32): warning CS8618: null 非許容の プロパティ 'DbVersion' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\ActivityLogDbModel.cs(12,23,12,33): warning CS8618: null 非許容の プロパティ 'ActionType' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\ActivityLogDbModel.cs(14,23,14,31): warning CS8618: null 非許容の プロパティ 'ItemName' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\ActivityLogDbModel.cs(15,23,15,35): warning CS8618: null 非許容の プロパティ 'CategoryName' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\ActivityLogDbModel.cs(16,23,16,34): warning CS8618: null 非許容の プロパティ 'Description' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\ActivityLogDbModel.cs(17,23,17,28): warning CS8618: null 非許容の プロパティ 'Actor' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\AppSettingDbModel.cs(9,23,9,26): warning CS8618: null 非許容の プロパティ 'Key' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\AppSettingDbModel.cs(10,23,10,28): warning CS8618: null 非許容の プロパティ 'Value' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\ColorMasterDbModel.cs(13,23,13,40): warning CS8618: null 非許容の プロパティ 'UnSelectedHexCode' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\ColorMasterDbModel.cs(16,23,16,38): warning CS8618: null 非許容の プロパティ 'SelectedHexCode' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\ColorMasterDbModel.cs(19,23,19,41): warning CS8618: null 非許容の プロパティ 'PreSelectedHexCode' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\ColorMasterDbModel.cs(21,23,21,27): warning CS8618: null 非許容の プロパティ 'Name' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\CandidateCategoryDbModel.cs(14,23,14,28): warning CS8618: null 非許容の プロパティ 'Title' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\CandidateCategoryDbModel.cs(23,23,23,31): warning CS8618: null 非許容の プロパティ 'IconName' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\CandidateListItemDbModel.cs(17,23,17,27): warning CS8618: null 非許容の プロパティ 'Name' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\CandidateListItemDbModel.cs(19,23,19,29): warning CS8618: null 非許容の プロパティ 'Detail' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\JsonModels\JsonMapping.cs(11,49,11,63): warning CS8618: null 非許容の プロパティ 'CandidateLists' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\JsonModels\CandidateListItemJsonModel.cs(11,23,11,27): warning CS8618: null 非許容の プロパティ 'Name' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\JsonModels\CandidateListItemJsonModel.cs(12,23,12,29): warning CS8618: null 非許容の プロパティ 'Detail' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\JsonModels\CandidateCategoryJsonModel.cs(12,23,12,28): warning CS8618: null 非許容の プロパティ 'Title' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\JsonModels\CandidateCategoryJsonModel.cs(15,23,15,31): warning CS8618: null 非許容の プロパティ 'IconName' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\JsonModels\CandidateCategoryJsonModel.cs(16,49,16,67): warning CS8618: null 非許容の プロパティ 'CandidateListItems' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\ActivityLogUiModel.cs(12,23,12,32): warning CS8618: null 非許容の プロパティ 'Timestamp' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\ActivityLogUiModel.cs(13,23,13,33): warning CS8618: null 非許容の プロパティ 'ActionType' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\ActivityLogUiModel.cs(14,23,14,31): warning CS8618: null 非許容の プロパティ 'ItemName' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\ActivityLogUiModel.cs(15,23,15,35): warning CS8618: null 非許容の プロパティ 'CategoryName' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\ActivityLogUiModel.cs(16,23,16,28): warning CS8618: null 非許容の プロパティ 'Actor' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\ShoppingListUiModel.cs(10,23,10,27): warning CS8618: null 非許容の フィールド 'name' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、フィールド を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\ShoppingListUiModel.cs(17,23,17,36): warning CS8618: null 非許容の フィールド 'categoryTitle' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、フィールド を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\ShoppingListUiModel.cs(23,22,23,37): warning CS8618: null 非許容の プロパティ 'BackgroundColor' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\CandidateCategoryUiModel.cs(13,23,13,39): warning CS8618: null 非許容の フィールド '_backgroundColor' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、フィールド を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\EditCategoryPopup.xaml.cs(32,33,32,106): warning CS8601: Null 参照代入の可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\EditCategoryPopup.xaml.cs(41,29,41,41): warning CS8601: Null 参照代入の可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\EditCategoryPopup.xaml.cs(49,23,49,42): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\EditCategoryPopup.xaml.cs(49,23,49,51): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\EditCategoryPopup.xaml.cs(21,16,21,42): warning CS8618: null 非許容の プロパティ 'EditingTitle' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\EditCategoryPopup.xaml.cs(21,16,21,42): warning CS8618: null 非許容の プロパティ 'SelectedColor' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\CandidateListItemModelConverter.cs(43,26,43,35): warning CS8601: Null 参照代入の可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\CandidateCategoryModelConverter.cs(12,41,12,45): warning CS8603: Null 参照戻り値である可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\CandidateListItemUiModel.cs(12,24,12,28): warning CS8618: null 非許容の フィールド 'name' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、フィールド を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\CandidateListItemUiModel.cs(25,23,25,38): warning CS8618: null 非許容の フィールド 'backgroundColor' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、フィールド を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\ActivityLogPageViewModel.cs(44,9,44,33): warning CS4014: この呼び出しを待たないため、現在のメソッドの実行は、呼び出しが完了するまで続行します。呼び出しの結果に 'await' 演算子を適用することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\BaseViewModel.cs(8,50,8,65): warning CS8618: null 非許容の イベント 'PropertyChanged' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、イベント を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\ShoppingListPageViewModel.cs(31,21,31,67): warning CS4014: この呼び出しを待たないため、現在のメソッドの実行は、呼び出しが完了するまで続行します。呼び出しの結果に 'await' 演算子を適用することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\ShoppingListPageViewModel.cs(27,42,27,62): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\EditCandidateItemPopup.xaml.cs(35,9,35,24): warning CS0618: 'MessagingCenter' は旧形式です ('We recommend migrating to `CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger`: https://www.nuget.org/packages/CommunityToolkit.Mvvm')
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\EditCandidateItemPopup.xaml.cs(41,9,41,24): warning CS0618: 'MessagingCenter' は旧形式です ('We recommend migrating to `CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger`: https://www.nuget.org/packages/CommunityToolkit.Mvvm')
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\CandidateListPage.xaml.cs(20,12,20,29): warning CS8618: null 非許容の プロパティ 'CategoryTitle' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\CandidateListPage.xaml.cs(20,12,20,29): warning CS8618: null 非許容の プロパティ 'CategoryTitleWithEmoji' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\CandidateListPage.xaml.cs(30,9,30,95): warning CS4014: この呼び出しを待たないため、現在のメソッドの実行は、呼び出しが完了するまで続行します。呼び出しの結果に 'await' 演算子を適用することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateCategoryViewModel.cs(79,21,79,56): warning CS4014: この呼び出しを待たないため、現在のメソッドの実行は、呼び出しが完了するまで続行します。呼び出しの結果に 'await' 演算子を適用することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateCategoryViewModel.cs(57,45,57,53): warning CS8604: 'Task CandidateCategoryViewModel.OnCategoryTappedAsync(CandidateCategoryUiModel category)' 内のパラメーター 'category' に Null 参照引数がある可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateCategoryViewModel.cs(71,39,71,47): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateCategoryViewModel.cs(79,21,79,39): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateCategoryViewModel.cs(103,40,103,44): warning CS8625: null リテラルを null 非許容参照型に変換できません。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\CandidateCategoryPage.xaml.cs(30,73,30,80): warning CS8604: 'CandidateCategoryDbModel CandidateCategoryModelConverter.ToDbModel(CandidateCategoryUiModel uiModel)' 内のパラメーター 'uiModel' に Null 参照引数がある可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\CandidateCategoryPage.xaml.cs(20,12,20,33): warning CS8618: null 非許容の プロパティ 'CategoryTitle' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\CandidateCategoryPage.xaml.cs(20,12,20,33): warning CS8618: null 非許容の プロパティ 'CategoryTitleWithEmoji' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\InitializationService.cs(30,17,30,36): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\ServiceHelper.cs(15,20,15,55): warning CS8603: Null 参照戻り値である可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\ServiceHelper.cs(20,20,20,63): warning CS8603: Null 参照戻り値である可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\ServiceHelper.cs(11,40,11,48): warning CS8618: null 非許容の プロパティ 'Services' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\EditCategoryPopupViewModel.cs(72,46,72,61): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\EditCategoryPopupViewModel.cs(78,49,78,64): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\EditCategoryPopupViewModel.cs(87,23,87,38): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\EditCategoryPopupViewModel.cs(99,23,99,38): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\EditCategoryPopupViewModel.cs(99,39,99,43): warning CS8625: null リテラルを null 非許容参照型に変換できません。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateCategoryViewModel.cs(216,40,216,48): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\ShoppingListService.cs(138,40,138,44): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(77,13,77,28): warning CS0618: 'MessagingCenter' は旧形式です ('We recommend migrating to `CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger`: https://www.nuget.org/packages/CommunityToolkit.Mvvm')
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(94,13,94,28): warning CS0618: 'MessagingCenter' は旧形式です ('We recommend migrating to `CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger`: https://www.nuget.org/packages/CommunityToolkit.Mvvm')
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(64,83,64,100): warning CS8622: 'Task CandidateListPageViewModel.OnItemTappedAsync(CandidateListItemUiModel item)' のパラメーター 'item' の型における参照型の NULL 値の許容が、ターゲット デリゲート 'Func<CandidateListItemUiModel?, Task>' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(74,76,74,86): warning CS8622: 'void CandidateListPageViewModel.MoveItemUp(CandidateListItemUiModel item)' のパラメーター 'item' の型における参照型の NULL 値の許容が、ターゲット デリゲート 'Action<CandidateListItemUiModel?>' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(75,78,75,90): warning CS8622: 'void CandidateListPageViewModel.MoveItemDown(CandidateListItemUiModel item)' のパラメーター 'item' の型における参照型の NULL 値の許容が、ターゲット デリゲート 'Action<CandidateListItemUiModel?>' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(76,78,76,90): warning CS8622: 'void CandidateListPageViewModel.ShowItemMenu(CandidateListItemUiModel item)' のパラメーター 'item' の型における参照型の NULL 値の許容が、ターゲット デリゲート 'Action<CandidateListItemUiModel?>' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(54,16,54,42): warning CS8618: null 非許容の フィールド 'categoryTitle' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、フィールド を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(54,16,54,42): warning CS8618: null 非許容の フィールド 'categoryTitleWithEmoji' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、フィールド を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(54,16,54,42): warning CS8618: null 非許容の プロパティ 'AddToShoppingListCommand' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(54,16,54,42): warning CS8618: null 非許容の イベント 'PropertyChanged' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、イベント を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\DatabaseService.cs(174,28,174,32): warning CS8603: Null 参照戻り値である可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\DatabaseService.cs(182,28,182,32): warning CS8603: Null 参照戻り値である可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\DatabaseService.cs(190,24,190,28): warning CS8603: Null 参照戻り値である可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(129,27,129,46): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(129,27,129,55): warning CS8604: 'Task<object?> PopupExtensions.ShowPopupAsync<EditCandidateItemPopup>(Page page, EditCandidateItemPopup popup, CancellationToken token = default(CancellationToken))' 内のパラメーター 'page' に Null 参照引数がある可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(438,26,438,40): warning CS8601: Null 参照代入の可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\DatabaseService.cs(422,24,422,28): warning CS8603: Null 参照戻り値である可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\EditCategoryPopupPage.xaml.cs(10,39,10,55): warning CS0169: フィールド 'EditCategoryPopupPage._serviceProvider' は使用されていません
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\SplashPage.xaml.cs(7,45,7,50): warning CS0169: フィールド 'SplashPage._init' は使用されていません
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(452,50,452,65): warning CS0067: イベント 'CandidateListPageViewModel.PropertyChanged' は使用されていません
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(240,48,240,61): warning MVVMTK0034: The field ShoppingList002.ViewModels.CandidateListPageViewModel.categoryTitle is annotated with [ObservableProperty] and should not be directly referenced (use the generated property instead) (https://aka.ms/mvvmtoolkit/errors/mvvmtk0034)
+1>ShoppingList002 -> C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\bin\Release\net8.0-android\ShoppingList002.dll
+1>アセンブリのサイズを最適化すると、アプリの動作が変わる可能性があります。公開した後に必ずテストしてください。https://aka.ms/dotnet-illink を参照してください
+1>アセンブリのサイズを最適化しています。このプロセスには時間がかかる場合があります。
+1>アセンブリのサイズを最適化すると、アプリの動作が変わる可能性があります。公開した後に必ずテストしてください。https://aka.ms/dotnet-illink を参照してください
+1>アセンブリのサイズを最適化しています。このプロセスには時間がかかる場合があります。
+1>アセンブリのサイズを最適化すると、アプリの動作が変わる可能性があります。公開した後に必ずテストしてください。https://aka.ms/dotnet-illink を参照してください
+1>アセンブリのサイズを最適化しています。このプロセスには時間がかかる場合があります。
+1>アセンブリのサイズを最適化すると、アプリの動作が変わる可能性があります。公開した後に必ずテストしてください。https://aka.ms/dotnet-illink を参照してください
+1>アセンブリのサイズを最適化しています。このプロセスには時間がかかる場合があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\AppShell.xaml.cs(12,7,12,28): warning CS0105: 'ShoppingList002.Views' の using ディレクティブは、この名前空間で既に使用されています
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\ColorUiModel.cs(6,26,6,32): warning CS8765: パラメーター 'obj' の型の NULL 値の許容が、オーバーライドされたメンバーと一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\ActionTypeToBackgroundColorConverter.cs(12,23,12,30): warning CS8767: 'object ActionTypeToBackgroundColorConverter.Convert(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'value' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.Convert(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\ActionTypeToBackgroundColorConverter.cs(12,23,12,30): warning CS8767: 'object ActionTypeToBackgroundColorConverter.Convert(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'parameter' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.Convert(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\ActionTypeToBackgroundColorConverter.cs(25,23,25,34): warning CS8767: 'object ActionTypeToBackgroundColorConverter.ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'value' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\ActionTypeToBackgroundColorConverter.cs(25,23,25,34): warning CS8767: 'object ActionTypeToBackgroundColorConverter.ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'parameter' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\ActionTypeToColorConverter.cs(7,23,7,30): warning CS8767: 'object ActionTypeToColorConverter.Convert(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'value' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.Convert(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\ActionTypeToColorConverter.cs(7,23,7,30): warning CS8767: 'object ActionTypeToColorConverter.Convert(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'parameter' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.Convert(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\ActionTypeToColorConverter.cs(19,23,19,34): warning CS8767: 'object ActionTypeToColorConverter.ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'value' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\ActionTypeToColorConverter.cs(19,23,19,34): warning CS8767: 'object ActionTypeToColorConverter.ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'parameter' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\BoolToColorConverter.cs(7,23,7,30): warning CS8767: 'object BoolToColorConverter.Convert(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'value' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.Convert(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\BoolToColorConverter.cs(7,23,7,30): warning CS8767: 'object BoolToColorConverter.Convert(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'parameter' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.Convert(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\BoolToColorConverter.cs(24,23,24,34): warning CS8767: 'object BoolToColorConverter.ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'value' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\BoolToColorConverter.cs(24,23,24,34): warning CS8767: 'object BoolToColorConverter.ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'parameter' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\IValueConverter.cs(8,23,8,30): warning CS8767: 'object SelectedItemEqualityConverter.Convert(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'value' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.Convert(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\IValueConverter.cs(8,23,8,30): warning CS8767: 'object SelectedItemEqualityConverter.Convert(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'parameter' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.Convert(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\IValueConverter.cs(20,23,20,34): warning CS8767: 'object SelectedItemEqualityConverter.ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'value' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\IValueConverter.cs(20,23,20,34): warning CS8767: 'object SelectedItemEqualityConverter.ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)' のパラメーター 'parameter' の型における参照型の NULL 値の許容が、暗黙的に実装されるメンバー 'object? IValueConverter.ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture)' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\BaseViewModel.cs(8,50,8,65): warning CS8612: 'event PropertyChangedEventHandler BaseViewModel.PropertyChanged' の型における参照型の Null 許容性が、暗黙的に実装されるメンバー 'event PropertyChangedEventHandler? INotifyPropertyChanged.PropertyChanged' と一致しません。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\BaseViewModel.cs(10,83,10,87): warning CS8625: null リテラルを null 非許容参照型に変換できません。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\BaseViewModel.cs(13,109,13,113): warning CS8625: null リテラルを null 非許容参照型に変換できません。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(452,50,452,65): warning CS0108: 'CandidateListPageViewModel.PropertyChanged' は継承されたメンバー 'ObservableObject.PropertyChanged' を非表示にします。非表示にする場合は、キーワード new を使用してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\CandidateListItemUiModel.cs(27,51,27,66): warning CS0108: 'CandidateListItemUiModel.PropertyChanged' は継承されたメンバー 'ObservableObject.PropertyChanged' を非表示にします。非表示にする場合は、キーワード new を使用してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\CandidateListItemUiModel.cs(28,24,28,41): warning CS0108: 'CandidateListItemUiModel.OnPropertyChanged(string)' は継承されたメンバー 'ObservableObject.OnPropertyChanged(string?)' を非表示にします。非表示にする場合は、キーワード new を使用してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\ColorUiModel.cs(4,19,4,23): warning CS8618: null 非許容の プロパティ 'Name' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\ColorUiModel.cs(5,18,5,28): warning CS8618: null 非許容の プロパティ 'ColorValue' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\AppShell.xaml.cs(49,27,49,48): warning CS1998: この非同期メソッドには 'await' 演算子がないため、同期的に実行されます。'await' 演算子を使用して非ブロッキング API 呼び出しを待機するか、'await Task.Run(...)' を使用してバックグラウンドのスレッドに対して CPU 主体の処理を実行することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\ActivityLogPageViewModel.cs(44,9,44,33): warning CS4014: この呼び出しを待たないため、現在のメソッドの実行は、呼び出しが完了するまで続行します。呼び出しの結果に 'await' 演算子を適用することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\ShoppingListUiModel.cs(10,23,10,27): warning CS8618: null 非許容の フィールド 'name' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、フィールド を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\ShoppingListUiModel.cs(17,23,17,36): warning CS8618: null 非許容の フィールド 'categoryTitle' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、フィールド を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\ShoppingListUiModel.cs(23,22,23,37): warning CS8618: null 非許容の プロパティ 'BackgroundColor' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\ShoppingListPageViewModel.cs(31,21,31,67): warning CS4014: この呼び出しを待たないため、現在のメソッドの実行は、呼び出しが完了するまで続行します。呼び出しの結果に 'await' 演算子を適用することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\ShoppingListPageViewModel.cs(27,42,27,62): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\CandidateListItemUiModel.cs(12,24,12,28): warning CS8618: null 非許容の フィールド 'name' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、フィールド を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\CandidateListItemUiModel.cs(25,23,25,38): warning CS8618: null 非許容の フィールド 'backgroundColor' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、フィールド を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\CandidateCategoryUiModel.cs(13,23,13,39): warning CS8618: null 非許容の フィールド '_backgroundColor' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、フィールド を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\ActivityLogUiModel.cs(12,23,12,32): warning CS8618: null 非許容の プロパティ 'Timestamp' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\ActivityLogUiModel.cs(13,23,13,33): warning CS8618: null 非許容の プロパティ 'ActionType' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\ActivityLogUiModel.cs(14,23,14,31): warning CS8618: null 非許容の プロパティ 'ItemName' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\ActivityLogUiModel.cs(15,23,15,35): warning CS8618: null 非許容の プロパティ 'CategoryName' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\UiModels\ActivityLogUiModel.cs(16,23,16,28): warning CS8618: null 非許容の プロパティ 'Actor' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\JsonModels\JsonMapping.cs(11,49,11,63): warning CS8618: null 非許容の プロパティ 'CandidateLists' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\JsonModels\CandidateListItemJsonModel.cs(11,23,11,27): warning CS8618: null 非許容の プロパティ 'Name' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\JsonModels\CandidateListItemJsonModel.cs(12,23,12,29): warning CS8618: null 非許容の プロパティ 'Detail' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\JsonModels\CandidateCategoryJsonModel.cs(12,23,12,28): warning CS8618: null 非許容の プロパティ 'Title' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\JsonModels\CandidateCategoryJsonModel.cs(15,23,15,31): warning CS8618: null 非許容の プロパティ 'IconName' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\JsonModels\CandidateCategoryJsonModel.cs(16,49,16,67): warning CS8618: null 非許容の プロパティ 'CandidateListItems' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\VersionDbModel.cs(14,23,14,32): warning CS8618: null 非許容の プロパティ 'DbVersion' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\ColorMasterDbModel.cs(13,23,13,40): warning CS8618: null 非許容の プロパティ 'UnSelectedHexCode' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\ColorMasterDbModel.cs(16,23,16,38): warning CS8618: null 非許容の プロパティ 'SelectedHexCode' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\ColorMasterDbModel.cs(19,23,19,41): warning CS8618: null 非許容の プロパティ 'PreSelectedHexCode' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\ColorMasterDbModel.cs(21,23,21,27): warning CS8618: null 非許容の プロパティ 'Name' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\CandidateListItemDbModel.cs(17,23,17,27): warning CS8618: null 非許容の プロパティ 'Name' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\CandidateListItemDbModel.cs(19,23,19,29): warning CS8618: null 非許容の プロパティ 'Detail' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\CandidateCategoryDbModel.cs(14,23,14,28): warning CS8618: null 非許容の プロパティ 'Title' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\CandidateCategoryDbModel.cs(23,23,23,31): warning CS8618: null 非許容の プロパティ 'IconName' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\AppSettingDbModel.cs(9,23,9,26): warning CS8618: null 非許容の プロパティ 'Key' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\AppSettingDbModel.cs(10,23,10,28): warning CS8618: null 非許容の プロパティ 'Value' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\ActivityLogDbModel.cs(12,23,12,33): warning CS8618: null 非許容の プロパティ 'ActionType' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\ActivityLogDbModel.cs(14,23,14,31): warning CS8618: null 非許容の プロパティ 'ItemName' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\ActivityLogDbModel.cs(15,23,15,35): warning CS8618: null 非許容の プロパティ 'CategoryName' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\ActivityLogDbModel.cs(16,23,16,34): warning CS8618: null 非許容の プロパティ 'Description' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Models\DbModels\ActivityLogDbModel.cs(17,23,17,28): warning CS8618: null 非許容の プロパティ 'Actor' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\CandidateListItemModelConverter.cs(43,26,43,35): warning CS8601: Null 参照代入の可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\Converters\CandidateCategoryModelConverter.cs(12,41,12,45): warning CS8603: Null 参照戻り値である可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\ShoppingListService.cs(138,40,138,44): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\EditCategoryPopupViewModel.cs(72,46,72,61): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\EditCategoryPopupViewModel.cs(78,49,78,64): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\EditCategoryPopupViewModel.cs(87,23,87,38): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\BaseViewModel.cs(8,50,8,65): warning CS8618: null 非許容の イベント 'PropertyChanged' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、イベント を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\EditCategoryPopupViewModel.cs(99,23,99,38): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\EditCategoryPopupViewModel.cs(99,39,99,43): warning CS8625: null リテラルを null 非許容参照型に変換できません。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\SplashPage.xaml.cs(8,12,8,22): warning CS8618: null 非許容の フィールド '_init' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、フィールド を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\SplashPage.xaml.cs(26,9,26,28): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\ServiceHelper.cs(15,20,15,55): warning CS8603: Null 参照戻り値である可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\ServiceHelper.cs(20,20,20,63): warning CS8603: Null 参照戻り値である可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\ServiceHelper.cs(11,40,11,48): warning CS8618: null 非許容の プロパティ 'Services' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\InitializationService.cs(30,17,30,36): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(77,13,77,28): warning CS0618: 'MessagingCenter' は旧形式です ('We recommend migrating to `CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger`: https://www.nuget.org/packages/CommunityToolkit.Mvvm')
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(94,13,94,28): warning CS0618: 'MessagingCenter' は旧形式です ('We recommend migrating to `CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger`: https://www.nuget.org/packages/CommunityToolkit.Mvvm')
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(64,83,64,100): warning CS8622: 'Task CandidateListPageViewModel.OnItemTappedAsync(CandidateListItemUiModel item)' のパラメーター 'item' の型における参照型の NULL 値の許容が、ターゲット デリゲート 'Func<CandidateListItemUiModel?, Task>' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(74,76,74,86): warning CS8622: 'void CandidateListPageViewModel.MoveItemUp(CandidateListItemUiModel item)' のパラメーター 'item' の型における参照型の NULL 値の許容が、ターゲット デリゲート 'Action<CandidateListItemUiModel?>' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(75,78,75,90): warning CS8622: 'void CandidateListPageViewModel.MoveItemDown(CandidateListItemUiModel item)' のパラメーター 'item' の型における参照型の NULL 値の許容が、ターゲット デリゲート 'Action<CandidateListItemUiModel?>' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(76,78,76,90): warning CS8622: 'void CandidateListPageViewModel.ShowItemMenu(CandidateListItemUiModel item)' のパラメーター 'item' の型における参照型の NULL 値の許容が、ターゲット デリゲート 'Action<CandidateListItemUiModel?>' と一致しません。おそらく、NULL 値の許容の属性が原因です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(54,16,54,42): warning CS8618: null 非許容の フィールド 'categoryTitle' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、フィールド を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(54,16,54,42): warning CS8618: null 非許容の フィールド 'categoryTitleWithEmoji' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、フィールド を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(54,16,54,42): warning CS8618: null 非許容の プロパティ 'AddToShoppingListCommand' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(54,16,54,42): warning CS8618: null 非許容の イベント 'PropertyChanged' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、イベント を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateCategoryViewModel.cs(79,21,79,56): warning CS4014: この呼び出しを待たないため、現在のメソッドの実行は、呼び出しが完了するまで続行します。呼び出しの結果に 'await' 演算子を適用することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateCategoryViewModel.cs(57,45,57,53): warning CS8604: 'Task CandidateCategoryViewModel.OnCategoryTappedAsync(CandidateCategoryUiModel category)' 内のパラメーター 'category' に Null 参照引数がある可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateCategoryViewModel.cs(71,39,71,47): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateCategoryViewModel.cs(79,21,79,39): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateCategoryViewModel.cs(103,40,103,44): warning CS8625: null リテラルを null 非許容参照型に変換できません。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(129,27,129,46): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(129,27,129,55): warning CS8604: 'Task<object?> PopupExtensions.ShowPopupAsync<EditCandidateItemPopup>(Page page, EditCandidateItemPopup popup, CancellationToken token = default(CancellationToken))' 内のパラメーター 'page' に Null 参照引数がある可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\EditCategoryPopupPage.xaml.cs(13,12,13,33): warning CS8618: null 非許容の フィールド '_serviceProvider' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、フィールド を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\EditCategoryPopup.xaml.cs(32,33,32,106): warning CS8601: Null 参照代入の可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\EditCategoryPopup.xaml.cs(41,29,41,41): warning CS8601: Null 参照代入の可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\EditCategoryPopup.xaml.cs(49,23,49,42): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\EditCategoryPopup.xaml.cs(49,23,49,51): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\EditCategoryPopup.xaml.cs(21,16,21,42): warning CS8618: null 非許容の プロパティ 'EditingTitle' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\EditCategoryPopup.xaml.cs(21,16,21,42): warning CS8618: null 非許容の プロパティ 'SelectedColor' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateCategoryViewModel.cs(216,40,216,48): warning CS8602: null 参照の可能性があるものの逆参照です。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\EditCandidateItemPopup.xaml.cs(35,9,35,24): warning CS0618: 'MessagingCenter' は旧形式です ('We recommend migrating to `CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger`: https://www.nuget.org/packages/CommunityToolkit.Mvvm')
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\EditCandidateItemPopup.xaml.cs(41,9,41,24): warning CS0618: 'MessagingCenter' は旧形式です ('We recommend migrating to `CommunityToolkit.Mvvm.Messaging.WeakReferenceMessenger`: https://www.nuget.org/packages/CommunityToolkit.Mvvm')
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\CandidateListPage.xaml.cs(20,12,20,29): warning CS8618: null 非許容の プロパティ 'CategoryTitle' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\CandidateListPage.xaml.cs(20,12,20,29): warning CS8618: null 非許容の プロパティ 'CategoryTitleWithEmoji' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\CandidateListPage.xaml.cs(30,9,30,95): warning CS4014: この呼び出しを待たないため、現在のメソッドの実行は、呼び出しが完了するまで続行します。呼び出しの結果に 'await' 演算子を適用することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\DatabaseService.cs(174,28,174,32): warning CS8603: Null 参照戻り値である可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\DatabaseService.cs(182,28,182,32): warning CS8603: Null 参照戻り値である可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\DatabaseService.cs(190,24,190,28): warning CS8603: Null 参照戻り値である可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\CandidateCategoryPage.xaml.cs(30,73,30,80): warning CS8604: 'CandidateCategoryDbModel CandidateCategoryModelConverter.ToDbModel(CandidateCategoryUiModel uiModel)' 内のパラメーター 'uiModel' に Null 参照引数がある可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\CandidateCategoryPage.xaml.cs(20,12,20,33): warning CS8618: null 非許容の プロパティ 'CategoryTitle' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\CandidateCategoryPage.xaml.cs(20,12,20,33): warning CS8618: null 非許容の プロパティ 'CategoryTitleWithEmoji' には、コンストラクターの終了時に null 以外の値が入っていなければなりません。'required' 修飾子を追加するか、プロパティ を Null 許容として宣言することを検討してください。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(438,26,438,40): warning CS8601: Null 参照代入の可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Services\DatabaseService.cs(422,24,422,28): warning CS8603: Null 参照戻り値である可能性があります。
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(452,50,452,65): warning CS0067: イベント 'CandidateListPageViewModel.PropertyChanged' は使用されていません
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\EditCategoryPopupPage.xaml.cs(10,39,10,55): warning CS0169: フィールド 'EditCategoryPopupPage._serviceProvider' は使用されていません
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\Views\SplashPage.xaml.cs(7,45,7,50): warning CS0169: フィールド 'SplashPage._init' は使用されていません
+1>C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\ViewModels\CandidateListPageViewModel.cs(240,48,240,61): warning MVVMTK0034: The field ShoppingList002.ViewModels.CandidateListPageViewModel.categoryTitle is annotated with [ObservableProperty] and should not be directly referenced (use the generated property instead) (https://aka.ms/mvvmtoolkit/errors/mvvmtk0034)
+1>ShoppingList002 -> C:\Users\jaysm\source\repos\ShoppingList002\ShoppingList002\bin\Release\net8.0-windows10.0.19041.0\win10-x64\ShoppingList002.dll
+1>[1/106] _Microsoft.Android.Resource.Designer.dll -> _Microsoft.Android.Resource.Designer.dll.so
+1>[1/106] _Microsoft.Android.Resource.Designer.dll -> _Microsoft.Android.Resource.Designer.dll.so
+1>[1/106] _Microsoft.Android.Resource.Designer.dll -> _Microsoft.Android.Resource.Designer.dll.so
+1>[2/106] Microsoft.Extensions.DependencyInjection.dll -> Microsoft.Extensions.DependencyInjection.dll.so
+1>[1/106] _Microsoft.Android.Resource.Designer.dll -> _Microsoft.Android.Resource.Designer.dll.so
+1>[3/106] Microsoft.Extensions.DependencyInjection.Abstractions.dll -> Microsoft.Extensions.DependencyInjection.Abstractions.dll.so
+1>[4/106] CommunityToolkit.Maui.Core.dll -> CommunityToolkit.Maui.Core.dll.so
+1>[5/106] Microsoft.Extensions.Logging.dll -> Microsoft.Extensions.Logging.dll.so
+1>[6/106] Microsoft.Extensions.Logging.Abstractions.dll -> Microsoft.Extensions.Logging.Abstractions.dll.so
+1>[7/106] Microsoft.Extensions.Configuration.dll -> Microsoft.Extensions.Configuration.dll.so
+1>[8/106] CommunityToolkit.Maui.dll -> CommunityToolkit.Maui.dll.so
+1>[9/106] Microsoft.Extensions.Options.dll -> Microsoft.Extensions.Options.dll.so
+1>プロジェクト "ShoppingList002.csproj" のビルドが終了しました。
+1>[10/106] Microsoft.Maui.Essentials.dll -> Microsoft.Maui.Essentials.dll.so
+1>[11/106] Microsoft.Extensions.Primitives.dll -> Microsoft.Extensions.Primitives.dll.so
+1>[2/106] ShoppingList002.dll -> ShoppingList002.dll.so
+1>[2/106] ShoppingList002.dll -> ShoppingList002.dll.so
+1>[12/106] Microsoft.Maui.Graphics.dll -> Microsoft.Maui.Graphics.dll.so
+1>[13/106] Newtonsoft.Json.dll -> Newtonsoft.Json.dll.so
+1>[14/106] Microsoft.Extensions.Configuration.Abstractions.dll -> Microsoft.Extensions.Configuration.Abstractions.dll.so
+1>[15/106] Microsoft.Maui.Controls.Xaml.dll -> Microsoft.Maui.Controls.Xaml.dll.so
+1>[16/106] CommunityToolkit.Mvvm.dll -> CommunityToolkit.Mvvm.dll.so
+1>[17/106] Microsoft.Maui.dll -> Microsoft.Maui.dll.so
+1>[18/106] ShoppingList002.dll -> ShoppingList002.dll.so
+1>[19/106] Microsoft.Maui.Controls.dll -> Microsoft.Maui.Controls.dll.so
+1>[2/106] ShoppingList002.dll -> ShoppingList002.dll.so
+1>[20/106] SQLite-net.dll -> SQLite-net.dll.so
+1>[21/106] Xamarin.AndroidX.AppCompat.dll -> Xamarin.AndroidX.AppCompat.dll.so
+1>[22/106] Xamarin.AndroidX.AppCompat.AppCompatResources.dll -> Xamarin.AndroidX.AppCompat.AppCompatResources.dll.so
+1>[23/106] SQLitePCLRaw.core.dll -> SQLitePCLRaw.core.dll.so
+1>[24/106] SQLitePCLRaw.lib.e_sqlite3.android.dll -> SQLitePCLRaw.lib.e_sqlite3.android.dll.so
+1>[25/106] SQLitePCLRaw.batteries_v2.dll -> SQLitePCLRaw.batteries_v2.dll.so
+1>[26/106] Xamarin.AndroidX.Activity.dll -> Xamarin.AndroidX.Activity.dll.so
+1>[27/106] SQLitePCLRaw.provider.e_sqlite3.dll -> SQLitePCLRaw.provider.e_sqlite3.dll.so
+1>[28/106] Xamarin.AndroidX.CardView.dll -> Xamarin.AndroidX.CardView.dll.so
+1>[29/106] Xamarin.AndroidX.Collection.dll -> Xamarin.AndroidX.Collection.dll.so
+1>[30/106] Xamarin.AndroidX.CustomView.dll -> Xamarin.AndroidX.CustomView.dll.so
+1>[31/106] Xamarin.AndroidX.CursorAdapter.dll -> Xamarin.AndroidX.CursorAdapter.dll.so
+1>[32/106] Xamarin.AndroidX.CoordinatorLayout.dll -> Xamarin.AndroidX.CoordinatorLayout.dll.so
+1>[33/106] Xamarin.AndroidX.Fragment.dll -> Xamarin.AndroidX.Fragment.dll.so
+1>[34/106] Xamarin.AndroidX.DrawerLayout.dll -> Xamarin.AndroidX.DrawerLayout.dll.so
+1>[35/106] Xamarin.AndroidX.Core.dll -> Xamarin.AndroidX.Core.dll.so
+1>[3/106] CommunityToolkit.Maui.dll -> CommunityToolkit.Maui.dll.so
+1>[3/106] CommunityToolkit.Maui.dll -> CommunityToolkit.Maui.dll.so
+1>[36/106] Xamarin.AndroidX.Lifecycle.ViewModel.dll -> Xamarin.AndroidX.Lifecycle.ViewModel.dll.so
+1>[37/106] Xamarin.AndroidX.Loader.dll -> Xamarin.AndroidX.Loader.dll.so
+1>[38/106] Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll -> Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll.so
+1>[39/106] Xamarin.AndroidX.Lifecycle.Common.dll -> Xamarin.AndroidX.Lifecycle.Common.dll.so
+1>[40/106] Xamarin.AndroidX.Lifecycle.LiveData.Core.dll -> Xamarin.AndroidX.Lifecycle.LiveData.Core.dll.so
+1>[4/106] CommunityToolkit.Maui.Core.dll -> CommunityToolkit.Maui.Core.dll.so
+1>[41/106] Xamarin.AndroidX.Navigation.Fragment.dll -> Xamarin.AndroidX.Navigation.Fragment.dll.so
+1>[42/106] Xamarin.AndroidX.Navigation.Common.dll -> Xamarin.AndroidX.Navigation.Common.dll.so
+1>[43/106] Xamarin.AndroidX.Navigation.Runtime.dll -> Xamarin.AndroidX.Navigation.Runtime.dll.so
+1>[3/106] CommunityToolkit.Maui.dll -> CommunityToolkit.Maui.dll.so
+1>[44/106] Xamarin.AndroidX.SavedState.dll -> Xamarin.AndroidX.SavedState.dll.so
+1>[45/106] Xamarin.AndroidX.Navigation.UI.dll -> Xamarin.AndroidX.Navigation.UI.dll.so
+1>[4/106] CommunityToolkit.Maui.Core.dll -> CommunityToolkit.Maui.Core.dll.so
+1>[5/106] CommunityToolkit.Mvvm.dll -> CommunityToolkit.Mvvm.dll.so
+1>[46/106] Xamarin.AndroidX.ViewPager.dll -> Xamarin.AndroidX.ViewPager.dll.so
+1>[47/106] Xamarin.AndroidX.RecyclerView.dll -> Xamarin.AndroidX.RecyclerView.dll.so
+1>[48/106] Xamarin.AndroidX.SwipeRefreshLayout.dll -> Xamarin.AndroidX.SwipeRefreshLayout.dll.so
+1>[49/106] Xamarin.AndroidX.ViewPager2.dll -> Xamarin.AndroidX.ViewPager2.dll.so
+1>[50/106] Xamarin.Google.Android.Material.dll -> Xamarin.Google.Android.Material.dll.so
+1>[4/106] CommunityToolkit.Maui.Core.dll -> CommunityToolkit.Maui.Core.dll.so
+1>[6/106] Microsoft.Extensions.Configuration.dll -> Microsoft.Extensions.Configuration.dll.so
+1>[5/106] CommunityToolkit.Mvvm.dll -> CommunityToolkit.Mvvm.dll.so
+1>[51/106] Xamarin.KotlinX.Coroutines.Core.Jvm.dll -> Xamarin.KotlinX.Coroutines.Core.Jvm.dll.so
+1>[52/106] Xamarin.Kotlin.StdLib.dll -> Xamarin.Kotlin.StdLib.dll.so
+1>[53/106] System.Collections.Concurrent.dll -> System.Collections.Concurrent.dll.so
+1>[54/106] System.Collections.Immutable.dll -> System.Collections.Immutable.dll.so
+1>[55/106] System.Collections.NonGeneric.dll -> System.Collections.NonGeneric.dll.so
+1>[7/106] Microsoft.Extensions.Configuration.Abstractions.dll -> Microsoft.Extensions.Configuration.Abstractions.dll.so
+1>[5/106] CommunityToolkit.Mvvm.dll -> CommunityToolkit.Mvvm.dll.so
+1>[56/106] System.Collections.Specialized.dll -> System.Collections.Specialized.dll.so
+1>[6/106] Microsoft.Extensions.Configuration.dll -> Microsoft.Extensions.Configuration.dll.so
+1>[57/106] Microsoft.CSharp.dll -> Microsoft.CSharp.dll.so
+1>[58/106] System.Collections.dll -> System.Collections.dll.so
+1>[59/106] System.ComponentModel.Primitives.dll -> System.ComponentModel.Primitives.dll.so
+1>[60/106] System.ComponentModel.dll -> System.ComponentModel.dll.so
+1>[7/106] Microsoft.Extensions.Configuration.Abstractions.dll -> Microsoft.Extensions.Configuration.Abstractions.dll.so
+1>[61/106] System.ComponentModel.TypeConverter.dll -> System.ComponentModel.TypeConverter.dll.so
+1>[6/106] Microsoft.Extensions.Configuration.dll -> Microsoft.Extensions.Configuration.dll.so
+1>[62/106] System.Console.dll -> System.Console.dll.so
+1>[63/106] System.Diagnostics.DiagnosticSource.dll -> System.Diagnostics.DiagnosticSource.dll.so
+1>[64/106] System.Diagnostics.TraceSource.dll -> System.Diagnostics.TraceSource.dll.so
+1>[8/106] Microsoft.Extensions.DependencyInjection.dll -> Microsoft.Extensions.DependencyInjection.dll.so
+1>[65/106] System.Data.Common.dll -> System.Data.Common.dll.so
+1>[66/106] System.Drawing.dll -> System.Drawing.dll.so
+1>[67/106] System.Drawing.Primitives.dll -> System.Drawing.Primitives.dll.so
+1>[7/106] Microsoft.Extensions.Configuration.Abstractions.dll -> Microsoft.Extensions.Configuration.Abstractions.dll.so
+1>[8/106] Microsoft.Extensions.DependencyInjection.dll -> Microsoft.Extensions.DependencyInjection.dll.so
+1>[9/106] Microsoft.Extensions.DependencyInjection.Abstractions.dll -> Microsoft.Extensions.DependencyInjection.Abstractions.dll.so
+1>[68/106] System.Memory.dll -> System.Memory.dll.so
+1>[69/106] System.IO.Compression.dll -> System.IO.Compression.dll.so
+1>[70/106] System.IO.Compression.Brotli.dll -> System.IO.Compression.Brotli.dll.so
+1>[71/106] System.Linq.dll -> System.Linq.dll.so
+1>[72/106] System.Net.Primitives.dll -> System.Net.Primitives.dll.so
+1>[73/106] System.Linq.Expressions.dll -> System.Linq.Expressions.dll.so
+1>[74/106] System.Net.Requests.dll -> System.Net.Requests.dll.so
+1>[8/106] Microsoft.Extensions.DependencyInjection.dll -> Microsoft.Extensions.DependencyInjection.dll.so
+1>[75/106] System.Net.Http.dll -> System.Net.Http.dll.so
+1>[9/106] Microsoft.Extensions.DependencyInjection.Abstractions.dll -> Microsoft.Extensions.DependencyInjection.Abstractions.dll.so
+1>[9/106] Microsoft.Extensions.DependencyInjection.Abstractions.dll -> Microsoft.Extensions.DependencyInjection.Abstractions.dll.so
+1>[76/106] System.Reflection.Emit.ILGeneration.dll -> System.Reflection.Emit.ILGeneration.dll.so
+1>[77/106] System.Reflection.Primitives.dll -> System.Reflection.Primitives.dll.so
+1>[10/106] Microsoft.Extensions.Logging.dll -> Microsoft.Extensions.Logging.dll.so
+1>[78/106] System.Numerics.Vectors.dll -> System.Numerics.Vectors.dll.so
+1>[79/106] System.Reflection.Emit.Lightweight.dll -> System.Reflection.Emit.Lightweight.dll.so
+1>[10/106] Microsoft.Extensions.Logging.dll -> Microsoft.Extensions.Logging.dll.so
+1>[11/106] Microsoft.Extensions.Logging.Abstractions.dll -> Microsoft.Extensions.Logging.Abstractions.dll.so
+1>[80/106] System.Runtime.InteropServices.dll -> System.Runtime.InteropServices.dll.so
+1>[81/106] System.Runtime.InteropServices.RuntimeInformation.dll -> System.Runtime.InteropServices.RuntimeInformation.dll.so
+1>[10/106] Microsoft.Extensions.Logging.dll -> Microsoft.Extensions.Logging.dll.so
+1>[82/106] System.Runtime.Loader.dll -> System.Runtime.Loader.dll.so
+1>[11/106] Microsoft.Extensions.Logging.Abstractions.dll -> Microsoft.Extensions.Logging.Abstractions.dll.so
+1>[12/106] Microsoft.Extensions.Options.dll -> Microsoft.Extensions.Options.dll.so
+1>[11/106] Microsoft.Extensions.Logging.Abstractions.dll -> Microsoft.Extensions.Logging.Abstractions.dll.so
+1>[83/106] System.Runtime.Serialization.Formatters.dll -> System.Runtime.Serialization.Formatters.dll.so
+1>[84/106] System.Runtime.Serialization.Primitives.dll -> System.Runtime.Serialization.Primitives.dll.so
+1>[85/106] System.Private.Xml.dll -> System.Private.Xml.dll.so
+1>[13/106] Microsoft.Extensions.Primitives.dll -> Microsoft.Extensions.Primitives.dll.so
+1>[12/106] Microsoft.Extensions.Options.dll -> Microsoft.Extensions.Options.dll.so
+1>[12/106] Microsoft.Extensions.Options.dll -> Microsoft.Extensions.Options.dll.so
+1>[86/106] System.ObjectModel.dll -> System.ObjectModel.dll.so
+1>[87/106] System.Security.Cryptography.dll -> System.Security.Cryptography.dll.so
+1>[88/106] System.Private.Uri.dll -> System.Private.Uri.dll.so
+1>[89/106] System.Runtime.dll -> System.Runtime.dll.so
+1>[90/106] System.Private.Xml.Linq.dll -> System.Private.Xml.Linq.dll.so
+1>[91/106] System.Text.Encoding.Extensions.dll -> System.Text.Encoding.Extensions.dll.so
+1>[13/106] Microsoft.Extensions.Primitives.dll -> Microsoft.Extensions.Primitives.dll.so
+1>[13/106] Microsoft.Extensions.Primitives.dll -> Microsoft.Extensions.Primitives.dll.so
+1>[92/106] System.Text.RegularExpressions.dll -> System.Text.RegularExpressions.dll.so
+1>[93/106] System.Text.Json.dll -> System.Text.Json.dll.so
+1>[94/106] System.Runtime.Numerics.dll -> System.Runtime.Numerics.dll.so
+1>[95/106] System.Xml.Linq.dll -> System.Xml.Linq.dll.so
+1>[96/106] System.Threading.dll -> System.Threading.dll.so
+1>[97/106] System.Threading.Thread.dll -> System.Threading.Thread.dll.so
+1>[98/106] System.Text.Encodings.Web.dll -> System.Text.Encodings.Web.dll.so
+1>[99/106] System.Xml.ReaderWriter.dll -> System.Xml.ReaderWriter.dll.so
+1>[100/106] System.Xml.XDocument.dll -> System.Xml.XDocument.dll.so
+1>[101/106] Mono.Android.Runtime.dll -> Mono.Android.Runtime.dll.so
+1>[102/106] System.dll -> System.dll.so
+1>[103/106] netstandard.dll -> netstandard.dll.so
+1>[104/106] Java.Interop.dll -> Java.Interop.dll.so
+1>[105/106] Mono.Android.dll -> Mono.Android.dll.so
+1>[14/106] Microsoft.Maui.Controls.dll -> Microsoft.Maui.Controls.dll.so
+1>[15/106] Microsoft.Maui.Controls.Xaml.dll -> Microsoft.Maui.Controls.Xaml.dll.so
+1>[14/106] Microsoft.Maui.Controls.dll -> Microsoft.Maui.Controls.dll.so
+1>[15/106] Microsoft.Maui.Controls.Xaml.dll -> Microsoft.Maui.Controls.Xaml.dll.so
+1>[14/106] Microsoft.Maui.Controls.dll -> Microsoft.Maui.Controls.dll.so
+1>[15/106] Microsoft.Maui.Controls.Xaml.dll -> Microsoft.Maui.Controls.Xaml.dll.so
+1>[16/106] Microsoft.Maui.dll -> Microsoft.Maui.dll.so
+1>[17/106] Microsoft.Maui.Essentials.dll -> Microsoft.Maui.Essentials.dll.so
+1>[16/106] Microsoft.Maui.dll -> Microsoft.Maui.dll.so
+1>[18/106] Microsoft.Maui.Graphics.dll -> Microsoft.Maui.Graphics.dll.so
+1>[106/106] System.Private.CoreLib.dll -> System.Private.CoreLib.dll.so
+1>[17/106] Microsoft.Maui.Essentials.dll -> Microsoft.Maui.Essentials.dll.so
+1>[16/106] Microsoft.Maui.dll -> Microsoft.Maui.dll.so
+1>[18/106] Microsoft.Maui.Graphics.dll -> Microsoft.Maui.Graphics.dll.so
+1>[17/106] Microsoft.Maui.Essentials.dll -> Microsoft.Maui.Essentials.dll.so
+1>[18/106] Microsoft.Maui.Graphics.dll -> Microsoft.Maui.Graphics.dll.so
+1>[19/106] Newtonsoft.Json.dll -> Newtonsoft.Json.dll.so
+1>[20/106] SQLite-net.dll -> SQLite-net.dll.so
+1>[21/106] SQLitePCLRaw.batteries_v2.dll -> SQLitePCLRaw.batteries_v2.dll.so
+1>[22/106] SQLitePCLRaw.core.dll -> SQLitePCLRaw.core.dll.so
+1>[19/106] Newtonsoft.Json.dll -> Newtonsoft.Json.dll.so
+1>[23/106] SQLitePCLRaw.lib.e_sqlite3.android.dll -> SQLitePCLRaw.lib.e_sqlite3.android.dll.so
+1>[20/106] SQLite-net.dll -> SQLite-net.dll.so
+1>[24/106] SQLitePCLRaw.provider.e_sqlite3.dll -> SQLitePCLRaw.provider.e_sqlite3.dll.so
+1>[21/106] SQLitePCLRaw.batteries_v2.dll -> SQLitePCLRaw.batteries_v2.dll.so
+1>[19/106] Newtonsoft.Json.dll -> Newtonsoft.Json.dll.so
+1>[25/106] Xamarin.AndroidX.Activity.dll -> Xamarin.AndroidX.Activity.dll.so
+1>[22/106] SQLitePCLRaw.core.dll -> SQLitePCLRaw.core.dll.so
+1>[23/106] SQLitePCLRaw.lib.e_sqlite3.android.dll -> SQLitePCLRaw.lib.e_sqlite3.android.dll.so
+1>[26/106] Xamarin.AndroidX.AppCompat.dll -> Xamarin.AndroidX.AppCompat.dll.so
+1>[20/106] SQLite-net.dll -> SQLite-net.dll.so
+1>[27/106] Xamarin.AndroidX.AppCompat.AppCompatResources.dll -> Xamarin.AndroidX.AppCompat.AppCompatResources.dll.so
+1>[24/106] SQLitePCLRaw.provider.e_sqlite3.dll -> SQLitePCLRaw.provider.e_sqlite3.dll.so
+1>[21/106] SQLitePCLRaw.batteries_v2.dll -> SQLitePCLRaw.batteries_v2.dll.so
+1>[28/106] Xamarin.AndroidX.CardView.dll -> Xamarin.AndroidX.CardView.dll.so
+1>[25/106] Xamarin.AndroidX.Activity.dll -> Xamarin.AndroidX.Activity.dll.so
+1>[22/106] SQLitePCLRaw.core.dll -> SQLitePCLRaw.core.dll.so
+1>[29/106] Xamarin.AndroidX.Collection.dll -> Xamarin.AndroidX.Collection.dll.so
+1>[23/106] SQLitePCLRaw.lib.e_sqlite3.android.dll -> SQLitePCLRaw.lib.e_sqlite3.android.dll.so
+1>[26/106] Xamarin.AndroidX.AppCompat.dll -> Xamarin.AndroidX.AppCompat.dll.so
+1>[30/106] Xamarin.AndroidX.CoordinatorLayout.dll -> Xamarin.AndroidX.CoordinatorLayout.dll.so
+1>[27/106] Xamarin.AndroidX.AppCompat.AppCompatResources.dll -> Xamarin.AndroidX.AppCompat.AppCompatResources.dll.so
+1>[24/106] SQLitePCLRaw.provider.e_sqlite3.dll -> SQLitePCLRaw.provider.e_sqlite3.dll.so
+1>[31/106] Xamarin.AndroidX.Core.dll -> Xamarin.AndroidX.Core.dll.so
+1>[28/106] Xamarin.AndroidX.CardView.dll -> Xamarin.AndroidX.CardView.dll.so
+1>[25/106] Xamarin.AndroidX.Activity.dll -> Xamarin.AndroidX.Activity.dll.so
+1>[32/106] Xamarin.AndroidX.CursorAdapter.dll -> Xamarin.AndroidX.CursorAdapter.dll.so
+1>[29/106] Xamarin.AndroidX.Collection.dll -> Xamarin.AndroidX.Collection.dll.so
+1>[26/106] Xamarin.AndroidX.AppCompat.dll -> Xamarin.AndroidX.AppCompat.dll.so
+1>[33/106] Xamarin.AndroidX.CustomView.dll -> Xamarin.AndroidX.CustomView.dll.so
+1>[30/106] Xamarin.AndroidX.CoordinatorLayout.dll -> Xamarin.AndroidX.CoordinatorLayout.dll.so
+1>[27/106] Xamarin.AndroidX.AppCompat.AppCompatResources.dll -> Xamarin.AndroidX.AppCompat.AppCompatResources.dll.so
+1>[34/106] Xamarin.AndroidX.DrawerLayout.dll -> Xamarin.AndroidX.DrawerLayout.dll.so
+1>[28/106] Xamarin.AndroidX.CardView.dll -> Xamarin.AndroidX.CardView.dll.so
+1>[31/106] Xamarin.AndroidX.Core.dll -> Xamarin.AndroidX.Core.dll.so
+1>[35/106] Xamarin.AndroidX.Fragment.dll -> Xamarin.AndroidX.Fragment.dll.so
+1>[32/106] Xamarin.AndroidX.CursorAdapter.dll -> Xamarin.AndroidX.CursorAdapter.dll.so
+1>[29/106] Xamarin.AndroidX.Collection.dll -> Xamarin.AndroidX.Collection.dll.so
+1>[36/106] Xamarin.AndroidX.Lifecycle.Common.dll -> Xamarin.AndroidX.Lifecycle.Common.dll.so
+1>[33/106] Xamarin.AndroidX.CustomView.dll -> Xamarin.AndroidX.CustomView.dll.so
+1>[30/106] Xamarin.AndroidX.CoordinatorLayout.dll -> Xamarin.AndroidX.CoordinatorLayout.dll.so
+1>[37/106] Xamarin.AndroidX.Lifecycle.LiveData.Core.dll -> Xamarin.AndroidX.Lifecycle.LiveData.Core.dll.so
+1>[34/106] Xamarin.AndroidX.DrawerLayout.dll -> Xamarin.AndroidX.DrawerLayout.dll.so
+1>[38/106] Xamarin.AndroidX.Lifecycle.ViewModel.dll -> Xamarin.AndroidX.Lifecycle.ViewModel.dll.so
+1>[31/106] Xamarin.AndroidX.Core.dll -> Xamarin.AndroidX.Core.dll.so
+1>[35/106] Xamarin.AndroidX.Fragment.dll -> Xamarin.AndroidX.Fragment.dll.so
+1>[32/106] Xamarin.AndroidX.CursorAdapter.dll -> Xamarin.AndroidX.CursorAdapter.dll.so
+1>[39/106] Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll -> Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll.so
+1>[36/106] Xamarin.AndroidX.Lifecycle.Common.dll -> Xamarin.AndroidX.Lifecycle.Common.dll.so
+1>[33/106] Xamarin.AndroidX.CustomView.dll -> Xamarin.AndroidX.CustomView.dll.so
+1>[40/106] Xamarin.AndroidX.Loader.dll -> Xamarin.AndroidX.Loader.dll.so
+1>[37/106] Xamarin.AndroidX.Lifecycle.LiveData.Core.dll -> Xamarin.AndroidX.Lifecycle.LiveData.Core.dll.so
+1>[34/106] Xamarin.AndroidX.DrawerLayout.dll -> Xamarin.AndroidX.DrawerLayout.dll.so
+1>[41/106] Xamarin.AndroidX.Navigation.Common.dll -> Xamarin.AndroidX.Navigation.Common.dll.so
+1>[38/106] Xamarin.AndroidX.Lifecycle.ViewModel.dll -> Xamarin.AndroidX.Lifecycle.ViewModel.dll.so
+1>[42/106] Xamarin.AndroidX.Navigation.Fragment.dll -> Xamarin.AndroidX.Navigation.Fragment.dll.so
+1>[35/106] Xamarin.AndroidX.Fragment.dll -> Xamarin.AndroidX.Fragment.dll.so
+1>[39/106] Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll -> Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll.so
+1>[43/106] Xamarin.AndroidX.Navigation.Runtime.dll -> Xamarin.AndroidX.Navigation.Runtime.dll.so
+1>[36/106] Xamarin.AndroidX.Lifecycle.Common.dll -> Xamarin.AndroidX.Lifecycle.Common.dll.so
+1>[40/106] Xamarin.AndroidX.Loader.dll -> Xamarin.AndroidX.Loader.dll.so
+1>[44/106] Xamarin.AndroidX.Navigation.UI.dll -> Xamarin.AndroidX.Navigation.UI.dll.so
+1>[37/106] Xamarin.AndroidX.Lifecycle.LiveData.Core.dll -> Xamarin.AndroidX.Lifecycle.LiveData.Core.dll.so
+1>[41/106] Xamarin.AndroidX.Navigation.Common.dll -> Xamarin.AndroidX.Navigation.Common.dll.so
+1>[45/106] Xamarin.AndroidX.RecyclerView.dll -> Xamarin.AndroidX.RecyclerView.dll.so
+1>[38/106] Xamarin.AndroidX.Lifecycle.ViewModel.dll -> Xamarin.AndroidX.Lifecycle.ViewModel.dll.so
+1>[42/106] Xamarin.AndroidX.Navigation.Fragment.dll -> Xamarin.AndroidX.Navigation.Fragment.dll.so
+1>[46/106] Xamarin.AndroidX.SavedState.dll -> Xamarin.AndroidX.SavedState.dll.so
+1>[39/106] Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll -> Xamarin.AndroidX.Lifecycle.ViewModelSavedState.dll.so
+1>[43/106] Xamarin.AndroidX.Navigation.Runtime.dll -> Xamarin.AndroidX.Navigation.Runtime.dll.so
+1>[47/106] Xamarin.AndroidX.SwipeRefreshLayout.dll -> Xamarin.AndroidX.SwipeRefreshLayout.dll.so
+1>[40/106] Xamarin.AndroidX.Loader.dll -> Xamarin.AndroidX.Loader.dll.so
+1>[44/106] Xamarin.AndroidX.Navigation.UI.dll -> Xamarin.AndroidX.Navigation.UI.dll.so
+1>[48/106] Xamarin.AndroidX.ViewPager.dll -> Xamarin.AndroidX.ViewPager.dll.so
+1>[41/106] Xamarin.AndroidX.Navigation.Common.dll -> Xamarin.AndroidX.Navigation.Common.dll.so
+1>[45/106] Xamarin.AndroidX.RecyclerView.dll -> Xamarin.AndroidX.RecyclerView.dll.so
+1>[49/106] Xamarin.AndroidX.ViewPager2.dll -> Xamarin.AndroidX.ViewPager2.dll.so
+1>[42/106] Xamarin.AndroidX.Navigation.Fragment.dll -> Xamarin.AndroidX.Navigation.Fragment.dll.so
+1>[46/106] Xamarin.AndroidX.SavedState.dll -> Xamarin.AndroidX.SavedState.dll.so
+1>[50/106] Xamarin.Google.Android.Material.dll -> Xamarin.Google.Android.Material.dll.so
+1>[43/106] Xamarin.AndroidX.Navigation.Runtime.dll -> Xamarin.AndroidX.Navigation.Runtime.dll.so
+1>[47/106] Xamarin.AndroidX.SwipeRefreshLayout.dll -> Xamarin.AndroidX.SwipeRefreshLayout.dll.so
+1>[44/106] Xamarin.AndroidX.Navigation.UI.dll -> Xamarin.AndroidX.Navigation.UI.dll.so
+1>[51/106] Xamarin.Kotlin.StdLib.dll -> Xamarin.Kotlin.StdLib.dll.so
+1>[48/106] Xamarin.AndroidX.ViewPager.dll -> Xamarin.AndroidX.ViewPager.dll.so
+1>[45/106] Xamarin.AndroidX.RecyclerView.dll -> Xamarin.AndroidX.RecyclerView.dll.so
+1>[52/106] Xamarin.KotlinX.Coroutines.Core.Jvm.dll -> Xamarin.KotlinX.Coroutines.Core.Jvm.dll.so
+1>[49/106] Xamarin.AndroidX.ViewPager2.dll -> Xamarin.AndroidX.ViewPager2.dll.so
+1>[46/106] Xamarin.AndroidX.SavedState.dll -> Xamarin.AndroidX.SavedState.dll.so
+1>[50/106] Xamarin.Google.Android.Material.dll -> Xamarin.Google.Android.Material.dll.so
+1>[47/106] Xamarin.AndroidX.SwipeRefreshLayout.dll -> Xamarin.AndroidX.SwipeRefreshLayout.dll.so
+1>[53/106] Microsoft.CSharp.dll -> Microsoft.CSharp.dll.so
+1>[51/106] Xamarin.Kotlin.StdLib.dll -> Xamarin.Kotlin.StdLib.dll.so
+1>[48/106] Xamarin.AndroidX.ViewPager.dll -> Xamarin.AndroidX.ViewPager.dll.so
+1>[54/106] System.Collections.Concurrent.dll -> System.Collections.Concurrent.dll.so
+1>[49/106] Xamarin.AndroidX.ViewPager2.dll -> Xamarin.AndroidX.ViewPager2.dll.so
+1>[52/106] Xamarin.KotlinX.Coroutines.Core.Jvm.dll -> Xamarin.KotlinX.Coroutines.Core.Jvm.dll.so
+1>[55/106] System.Collections.Immutable.dll -> System.Collections.Immutable.dll.so
+1>[50/106] Xamarin.Google.Android.Material.dll -> Xamarin.Google.Android.Material.dll.so
+1>[56/106] System.Collections.NonGeneric.dll -> System.Collections.NonGeneric.dll.so
+1>[53/106] Microsoft.CSharp.dll -> Microsoft.CSharp.dll.so
+1>[57/106] System.Collections.Specialized.dll -> System.Collections.Specialized.dll.so
+1>[51/106] Xamarin.Kotlin.StdLib.dll -> Xamarin.Kotlin.StdLib.dll.so
+1>[54/106] System.Collections.Concurrent.dll -> System.Collections.Concurrent.dll.so
+1>[58/106] System.Collections.dll -> System.Collections.dll.so
+1>[52/106] Xamarin.KotlinX.Coroutines.Core.Jvm.dll -> Xamarin.KotlinX.Coroutines.Core.Jvm.dll.so
+1>[55/106] System.Collections.Immutable.dll -> System.Collections.Immutable.dll.so
+1>[59/106] System.ComponentModel.Primitives.dll -> System.ComponentModel.Primitives.dll.so
+1>[56/106] System.Collections.NonGeneric.dll -> System.Collections.NonGeneric.dll.so
+1>[53/106] Microsoft.CSharp.dll -> Microsoft.CSharp.dll.so
+1>[60/106] System.ComponentModel.TypeConverter.dll -> System.ComponentModel.TypeConverter.dll.so
+1>[57/106] System.Collections.Specialized.dll -> System.Collections.Specialized.dll.so
+1>[61/106] System.ComponentModel.dll -> System.ComponentModel.dll.so
+1>[54/106] System.Collections.Concurrent.dll -> System.Collections.Concurrent.dll.so
+1>[58/106] System.Collections.dll -> System.Collections.dll.so
+1>[62/106] System.Console.dll -> System.Console.dll.so
+1>[55/106] System.Collections.Immutable.dll -> System.Collections.Immutable.dll.so
+1>[59/106] System.ComponentModel.Primitives.dll -> System.ComponentModel.Primitives.dll.so
+1>[63/106] System.Data.Common.dll -> System.Data.Common.dll.so
+1>[56/106] System.Collections.NonGeneric.dll -> System.Collections.NonGeneric.dll.so
+1>[64/106] System.Diagnostics.DiagnosticSource.dll -> System.Diagnostics.DiagnosticSource.dll.so
+1>[60/106] System.ComponentModel.TypeConverter.dll -> System.ComponentModel.TypeConverter.dll.so
+1>[57/106] System.Collections.Specialized.dll -> System.Collections.Specialized.dll.so
+1>[61/106] System.ComponentModel.dll -> System.ComponentModel.dll.so
+1>[65/106] System.Diagnostics.TraceSource.dll -> System.Diagnostics.TraceSource.dll.so
+1>[58/106] System.Collections.dll -> System.Collections.dll.so
+1>[62/106] System.Console.dll -> System.Console.dll.so
+1>[66/106] System.Drawing.Primitives.dll -> System.Drawing.Primitives.dll.so
+1>[59/106] System.ComponentModel.Primitives.dll -> System.ComponentModel.Primitives.dll.so
+1>[67/106] System.Drawing.dll -> System.Drawing.dll.so
+1>[63/106] System.Data.Common.dll -> System.Data.Common.dll.so
+1>[60/106] System.ComponentModel.TypeConverter.dll -> System.ComponentModel.TypeConverter.dll.so
+1>[64/106] System.Diagnostics.DiagnosticSource.dll -> System.Diagnostics.DiagnosticSource.dll.so
+1>[68/106] System.IO.Compression.Brotli.dll -> System.IO.Compression.Brotli.dll.so
+1>[61/106] System.ComponentModel.dll -> System.ComponentModel.dll.so
+1>[65/106] System.Diagnostics.TraceSource.dll -> System.Diagnostics.TraceSource.dll.so
+1>[69/106] System.IO.Compression.dll -> System.IO.Compression.dll.so
+1>[62/106] System.Console.dll -> System.Console.dll.so
+1>[66/106] System.Drawing.Primitives.dll -> System.Drawing.Primitives.dll.so
+1>[67/106] System.Drawing.dll -> System.Drawing.dll.so
+1>[63/106] System.Data.Common.dll -> System.Data.Common.dll.so
+1>[70/106] System.Linq.Expressions.dll -> System.Linq.Expressions.dll.so
+1>[64/106] System.Diagnostics.DiagnosticSource.dll -> System.Diagnostics.DiagnosticSource.dll.so
+1>[68/106] System.IO.Compression.Brotli.dll -> System.IO.Compression.Brotli.dll.so
+1>[65/106] System.Diagnostics.TraceSource.dll -> System.Diagnostics.TraceSource.dll.so
+1>[69/106] System.IO.Compression.dll -> System.IO.Compression.dll.so
+1>[71/106] System.Linq.dll -> System.Linq.dll.so
+1>[66/106] System.Drawing.Primitives.dll -> System.Drawing.Primitives.dll.so
+1>[72/106] System.Memory.dll -> System.Memory.dll.so
+1>[67/106] System.Drawing.dll -> System.Drawing.dll.so
+1>[70/106] System.Linq.Expressions.dll -> System.Linq.Expressions.dll.so
+1>[73/106] System.Net.Http.dll -> System.Net.Http.dll.so
+1>[68/106] System.IO.Compression.Brotli.dll -> System.IO.Compression.Brotli.dll.so
+1>[69/106] System.IO.Compression.dll -> System.IO.Compression.dll.so
+1>[74/106] System.Net.Primitives.dll -> System.Net.Primitives.dll.so
+1>[71/106] System.Linq.dll -> System.Linq.dll.so
+1>[75/106] System.Net.Requests.dll -> System.Net.Requests.dll.so
+1>[72/106] System.Memory.dll -> System.Memory.dll.so
+1>[76/106] System.Numerics.Vectors.dll -> System.Numerics.Vectors.dll.so
+1>[70/106] System.Linq.Expressions.dll -> System.Linq.Expressions.dll.so
+1>[77/106] System.ObjectModel.dll -> System.ObjectModel.dll.so
+1>[73/106] System.Net.Http.dll -> System.Net.Http.dll.so
+1>[74/106] System.Net.Primitives.dll -> System.Net.Primitives.dll.so
+1>[71/106] System.Linq.dll -> System.Linq.dll.so
+1>[78/106] System.Private.Uri.dll -> System.Private.Uri.dll.so
+1>[75/106] System.Net.Requests.dll -> System.Net.Requests.dll.so
+1>[72/106] System.Memory.dll -> System.Memory.dll.so
+1>[79/106] System.Private.Xml.Linq.dll -> System.Private.Xml.Linq.dll.so
+1>[76/106] System.Numerics.Vectors.dll -> System.Numerics.Vectors.dll.so
+1>[77/106] System.ObjectModel.dll -> System.ObjectModel.dll.so
+1>[73/106] System.Net.Http.dll -> System.Net.Http.dll.so
+1>[80/106] System.Private.Xml.dll -> System.Private.Xml.dll.so
+1>[78/106] System.Private.Uri.dll -> System.Private.Uri.dll.so
+1>[81/106] System.Reflection.Emit.ILGeneration.dll -> System.Reflection.Emit.ILGeneration.dll.so
+1>[74/106] System.Net.Primitives.dll -> System.Net.Primitives.dll.so
+1>[82/106] System.Reflection.Emit.Lightweight.dll -> System.Reflection.Emit.Lightweight.dll.so
+1>[75/106] System.Net.Requests.dll -> System.Net.Requests.dll.so
+1>[79/106] System.Private.Xml.Linq.dll -> System.Private.Xml.Linq.dll.so
+1>[83/106] System.Reflection.Primitives.dll -> System.Reflection.Primitives.dll.so
+1>[76/106] System.Numerics.Vectors.dll -> System.Numerics.Vectors.dll.so
+1>[84/106] System.Runtime.InteropServices.RuntimeInformation.dll -> System.Runtime.InteropServices.RuntimeInformation.dll.so
+1>[77/106] System.ObjectModel.dll -> System.ObjectModel.dll.so
+1>[80/106] System.Private.Xml.dll -> System.Private.Xml.dll.so
+1>[85/106] System.Runtime.InteropServices.dll -> System.Runtime.InteropServices.dll.so
+1>[81/106] System.Reflection.Emit.ILGeneration.dll -> System.Reflection.Emit.ILGeneration.dll.so
+1>[86/106] System.Runtime.Loader.dll -> System.Runtime.Loader.dll.so
+1>[78/106] System.Private.Uri.dll -> System.Private.Uri.dll.so
+1>[82/106] System.Reflection.Emit.Lightweight.dll -> System.Reflection.Emit.Lightweight.dll.so
+1>[87/106] System.Runtime.Numerics.dll -> System.Runtime.Numerics.dll.so
+1>[83/106] System.Reflection.Primitives.dll -> System.Reflection.Primitives.dll.so
+1>[79/106] System.Private.Xml.Linq.dll -> System.Private.Xml.Linq.dll.so
+1>[88/106] System.Runtime.Serialization.Formatters.dll -> System.Runtime.Serialization.Formatters.dll.so
+1>[84/106] System.Runtime.InteropServices.RuntimeInformation.dll -> System.Runtime.InteropServices.RuntimeInformation.dll.so
+1>[89/106] System.Runtime.Serialization.Primitives.dll -> System.Runtime.Serialization.Primitives.dll.so
+1>[85/106] System.Runtime.InteropServices.dll -> System.Runtime.InteropServices.dll.so
+1>[80/106] System.Private.Xml.dll -> System.Private.Xml.dll.so
+1>[90/106] System.Runtime.dll -> System.Runtime.dll.so
+1>[86/106] System.Runtime.Loader.dll -> System.Runtime.Loader.dll.so
+1>[81/106] System.Reflection.Emit.ILGeneration.dll -> System.Reflection.Emit.ILGeneration.dll.so
+1>[91/106] System.Security.Cryptography.dll -> System.Security.Cryptography.dll.so
+1>[87/106] System.Runtime.Numerics.dll -> System.Runtime.Numerics.dll.so
+1>[82/106] System.Reflection.Emit.Lightweight.dll -> System.Reflection.Emit.Lightweight.dll.so
+1>[92/106] System.Text.Encoding.Extensions.dll -> System.Text.Encoding.Extensions.dll.so
+1>[88/106] System.Runtime.Serialization.Formatters.dll -> System.Runtime.Serialization.Formatters.dll.so
+1>[83/106] System.Reflection.Primitives.dll -> System.Reflection.Primitives.dll.so
+1>[93/106] System.Text.Encodings.Web.dll -> System.Text.Encodings.Web.dll.so
+1>[89/106] System.Runtime.Serialization.Primitives.dll -> System.Runtime.Serialization.Primitives.dll.so
+1>[84/106] System.Runtime.InteropServices.RuntimeInformation.dll -> System.Runtime.InteropServices.RuntimeInformation.dll.so
+1>[90/106] System.Runtime.dll -> System.Runtime.dll.so
+1>[85/106] System.Runtime.InteropServices.dll -> System.Runtime.InteropServices.dll.so
+1>[91/106] System.Security.Cryptography.dll -> System.Security.Cryptography.dll.so
+1>[86/106] System.Runtime.Loader.dll -> System.Runtime.Loader.dll.so
+1>[92/106] System.Text.Encoding.Extensions.dll -> System.Text.Encoding.Extensions.dll.so
+1>[87/106] System.Runtime.Numerics.dll -> System.Runtime.Numerics.dll.so
+1>[93/106] System.Text.Encodings.Web.dll -> System.Text.Encodings.Web.dll.so
+1>[88/106] System.Runtime.Serialization.Formatters.dll -> System.Runtime.Serialization.Formatters.dll.so
+1>[94/106] System.Text.Json.dll -> System.Text.Json.dll.so
+1>[89/106] System.Runtime.Serialization.Primitives.dll -> System.Runtime.Serialization.Primitives.dll.so
+1>[90/106] System.Runtime.dll -> System.Runtime.dll.so
+1>[91/106] System.Security.Cryptography.dll -> System.Security.Cryptography.dll.so
+1>[95/106] System.Text.RegularExpressions.dll -> System.Text.RegularExpressions.dll.so
+1>[92/106] System.Text.Encoding.Extensions.dll -> System.Text.Encoding.Extensions.dll.so
+1>[96/106] System.Threading.Thread.dll -> System.Threading.Thread.dll.so
+1>[94/106] System.Text.Json.dll -> System.Text.Json.dll.so
+1>[93/106] System.Text.Encodings.Web.dll -> System.Text.Encodings.Web.dll.so
+1>[97/106] System.Threading.dll -> System.Threading.dll.so
+1>[98/106] System.Xml.Linq.dll -> System.Xml.Linq.dll.so
+1>[99/106] System.Xml.ReaderWriter.dll -> System.Xml.ReaderWriter.dll.so
+1>[95/106] System.Text.RegularExpressions.dll -> System.Text.RegularExpressions.dll.so
+1>[100/106] System.Xml.XDocument.dll -> System.Xml.XDocument.dll.so
+1>[96/106] System.Threading.Thread.dll -> System.Threading.Thread.dll.so
+1>[101/106] System.dll -> System.dll.so
+1>[97/106] System.Threading.dll -> System.Threading.dll.so
+1>[102/106] netstandard.dll -> netstandard.dll.so
+1>[98/106] System.Xml.Linq.dll -> System.Xml.Linq.dll.so
+1>[94/106] System.Text.Json.dll -> System.Text.Json.dll.so
+1>[99/106] System.Xml.ReaderWriter.dll -> System.Xml.ReaderWriter.dll.so
+1>[100/106] System.Xml.XDocument.dll -> System.Xml.XDocument.dll.so
+1>[103/106] Java.Interop.dll -> Java.Interop.dll.so
+1>[101/106] System.dll -> System.dll.so
+1>[104/106] Mono.Android.Runtime.dll -> Mono.Android.Runtime.dll.so
+1>[95/106] System.Text.RegularExpressions.dll -> System.Text.RegularExpressions.dll.so
+1>[102/106] netstandard.dll -> netstandard.dll.so
+1>[96/106] System.Threading.Thread.dll -> System.Threading.Thread.dll.so
+1>[97/106] System.Threading.dll -> System.Threading.dll.so
+1>[98/106] System.Xml.Linq.dll -> System.Xml.Linq.dll.so
+1>[103/106] Java.Interop.dll -> Java.Interop.dll.so
+1>[99/106] System.Xml.ReaderWriter.dll -> System.Xml.ReaderWriter.dll.so
+1>[104/106] Mono.Android.Runtime.dll -> Mono.Android.Runtime.dll.so
+1>[100/106] System.Xml.XDocument.dll -> System.Xml.XDocument.dll.so
+1>[105/106] Mono.Android.dll -> Mono.Android.dll.so
+1>[101/106] System.dll -> System.dll.so
+1>[102/106] netstandard.dll -> netstandard.dll.so
+1>[103/106] Java.Interop.dll -> Java.Interop.dll.so
+1>[105/106] Mono.Android.dll -> Mono.Android.dll.so
+1>[104/106] Mono.Android.Runtime.dll -> Mono.Android.Runtime.dll.so
+1>[105/106] Mono.Android.dll -> Mono.Android.dll.so
+1>[106/106] System.Private.CoreLib.dll -> System.Private.CoreLib.dll.so
+1>[106/106] System.Private.CoreLib.dll -> System.Private.CoreLib.dll.so
+1>[106/106] System.Private.CoreLib.dll -> System.Private.CoreLib.dll.so
+1>プロジェクト "ShoppingList002.csproj" のビルドが終了しました。
+========== ビルド: 成功 1、失敗 0、最新の状態 0、スキップ 0 ==========
+=========== ビルド は 13:19 で完了し、08:21.497 分 掛かりました ==========

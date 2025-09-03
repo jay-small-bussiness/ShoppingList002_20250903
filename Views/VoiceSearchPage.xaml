@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ShoppingList002.Views.VoiceSearchPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:viewmodels="clr-namespace:ShoppingList002.ViewModels"
+    Title="探して追加">
+
+    <ScrollView>
+        <!-- ★ 長文ヒントも収まるように -->
+        <StackLayout Padding="20" Spacing="16">
+
+            <!-- ★ モード表示チップ -->
+            <Border StrokeThickness="0" BackgroundColor="#EEF2FF" Padding="8" StrokeShape="RoundRectangle 12">
+                <Label Text="{Binding ModeChipText}" FontSize="12" TextColor="#3730A3"/>
+            </Border>
+
+            <!-- ★ 応答形式（ピンポン/説明型）スイッチ -->
+            <HorizontalStackLayout Spacing="8" VerticalOptions="Center">
+                <Label Text="応答形式" VerticalOptions="Center"/>
+                <Picker WidthRequest="220"
+                    ItemsSource="{Binding VoiceModeOptions}"
+                    SelectedIndex="{Binding SelectedVoiceModeIndex}" />
+            </HorizontalStackLayout>
+
+            <!-- ★ メインプロンプト & ヒント -->
+            <Label Text="{Binding PromptText}" FontAttributes="Bold" FontSize="18" />
+            <Label Text="{Binding HintText}" FontSize="12" TextColor="#6B7280" />
+
+            <!-- 🎙 マイク状態＆直近の認識テキスト -->
+            <Grid HeightRequest="120" BackgroundColor="{Binding MicStatusColor}">
+                <Label Text="{Binding MicStatusText}"
+                   TextColor="White"
+                   HorizontalOptions="Center"
+                   VerticalOptions="Center"
+                   FontAttributes="Bold"
+                   FontSize="16"/>
+                <Label Text="{Binding RecognizedText}"
+                   FontSize="18"
+                   VerticalOptions="Center"
+                   FontAttributes="Bold"
+                   TextColor="White"
+                   HorizontalOptions="Center" />
+                <!-- ★ 聴取インジケータ（VMのIsListeningにバインド） -->
+                <ActivityIndicator IsRunning="{Binding IsListening}"
+                               IsVisible="{Binding IsListening}"
+                               Color="White"
+                               HorizontalOptions="End" VerticalOptions="End"
+                               Margin="8"/>
+            </Grid>
+
+            <!-- 📋 検索結果リスト（複数ヒット時） -->
+            <CollectionView ItemsSource="{Binding SearchResults}"
+                        SelectionMode="Single">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame BorderColor="Gray" Padding="10" Margin="5"
+                           BackgroundColor="{Binding BackgroundColor}"
+                           InputTransparent="False">
+                            <Frame.GestureRecognizers>
+                                <!-- 既存のコードビハインドを活かす -->
+                                <TapGestureRecognizer Tapped="OnItemTapped" />
+                            </Frame.GestureRecognizers>
+                            <VerticalStackLayout>
+                                <Label Text="{Binding ItemName}" FontAttributes="Bold" FontSize="16" />
+                                <HorizontalStackLayout>
+                                    <Label Text="{Binding CategoryName}" FontSize="14" />
+                                    <Label Text="{Binding Itemcd}" FontSize="4" />
+                                </HorizontalStackLayout>
+                            </VerticalStackLayout>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <!-- 🧾 追加履歴 -->
+            <Label Text="最近追加した項目" FontAttributes="Bold" />
+            <CollectionView ItemsSource="{Binding AddedHistory}" HeightRequest="150">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Label Text="{Binding}" FontSize="14" />
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <!-- 🔘 操作ボタン（★ダミー卒業：VMコマンドに接続） -->
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="12">
+                <Button Text="🎤 聴く"    Command="{Binding StartListeningCommand}" />
+                <Button Text="⏹ 停止"    Command="{Binding StopListeningCommand}" />
+                <Button Text="🔄 再検索"  Command="{Binding RetryCommand}" />
+                <Button Text="🔚 終了"    Command="{Binding CloseCommand}" />
+            </HorizontalStackLayout>
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

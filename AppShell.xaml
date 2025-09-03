@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="ShoppingList002.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:ShoppingList002.Views"
+    Shell.FlyoutBehavior="Flyout">
+    <!--<ShellContent
+        Route="settings"
+        Title="設定"
+        ContentTemplate="{DataTemplate local:SettingsPage}" />-->
+    <!-- 🛒 ShoppingList：一番上に表示＆初期ページ -->
+    <FlyoutItem Title="買い物リスト"
+                Route="shoppinglist"
+                FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent
+            Title="買い物リスト"
+            ContentTemplate="{DataTemplate views:ShoppingListPage}" 
+            Route="ShoppingListPage" />
+    </FlyoutItem>
+
+    <!-- 📂 カテゴリ一覧ページ（カテゴリ → 候補一覧へ遷移） -->
+    <FlyoutItem Title="カテゴリ"
+                Route="category"
+                FlyoutDisplayOptions="AsMultipleItems">
+        <ShellContent
+            Title="カテゴリ"
+            ContentTemplate="{DataTemplate views:CandidateCategoryPage}" />
+    </FlyoutItem>
+    <FlyoutItem Title="ログ" Icon="activitylog.png">
+        <ShellContent
+        Title="Activity Log"
+        ContentTemplate="{DataTemplate views:ActivityLogPage}" />
+    </FlyoutItem>
+    <!--<FlyoutItem Title="Dashboard" Icon="dashboard.png">
+        <ShellContent ContentTemplate="{DataTemplate views:ActivityLogPage}" />
+    </FlyoutItem>-->
+    <!--<FlyoutItem Title="設定" Icon="settings.png">
+        <ShellContent
+            Title="設定"
+            ContentTemplate="{DataTemplate views:SettingsPage}" />
+    </FlyoutItem>-->
+
+    <!--<ShellItem Title="設定" Icon="settings.png" Route="settings">
+        <ShellContent ContentTemplate="{DataTemplate views:SettingsPage}" />
+    </ShellItem>-->
+    <!--<FlyoutItem Title="バックアップ" Icon="🗂️">
+        <ShellContent ContentTemplate="{DataTemplate local:BackupPage}" />
+    </FlyoutItem>-->
+    <MenuItem
+        Text="設定"
+        IconImageSource="settings.png"
+        Command="{Binding NavigateToSettingsCommand}" />
+</Shell>

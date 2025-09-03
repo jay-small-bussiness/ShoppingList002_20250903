@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<toolkit:Popup
+    x:Class="ShoppingList002.Views.SelectCategoryPopup"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:ShoppingList002.Views"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    Size="300,400">
+    <!--BackgroundColor="White">-->
+
+    <VerticalStackLayout Padding="20" Spacing="10">
+        <Label Text="カテゴリを選択してください" FontAttributes="Bold" FontSize="16" />
+        <CollectionView 
+            ItemsSource="{Binding Categories}" 
+            HeightRequest="280">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Padding="10" Margin="5"
+                           BackgroundColor="LightGray">
+                        <!--GestureRecognizers="{StaticResource TapGesture}">-->
+                        <Label Text="{Binding Title}" FontSize="14" />
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="OnCategoryTapped"
+                                CommandParameter="{Binding .}" />
+                            <!--<TapGestureRecognizer
+                                Command="{Binding Source={RelativeSource 
+                                AncestorType={x:Type local:SelectCategoryPopup}}, 
+                                Path=BindingContext.SelectCommand}"
+                                CommandParameter="{Binding .}" />-->
+                        </Frame.GestureRecognizers>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <Button Text="キャンセル" Clicked="OnCancelClicked" />
+    </VerticalStackLayout>
+</toolkit:Popup>

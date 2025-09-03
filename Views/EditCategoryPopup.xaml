@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="ShoppingList002.Views.EditCategoryPopup"
+    Title="カテゴリ編集">
+
+    <!--<VerticalStackLayout Padding="20" Spacing="20">
+        <Entry Placeholder="カテゴリ名" Text="{Binding EditingTitle}" />
+
+        <Label Text="色を選択してください" />
+
+        <CollectionView ItemsSource="{Binding AvailableColors}" SelectionMode="Single"
+                        SelectedItem="{Binding SelectedColor}" >
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Padding="10" BackgroundColor="{Binding ColorValue}" CornerRadius="10">
+                        <Label Text="{Binding Name}" TextColor="White" HorizontalOptions="Center" />
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <Button Text="保存" Command="{Binding SaveCommand}" />
+        <Button Text="キャンセル" Command="{Binding CancelCommand}" />
+    </VerticalStackLayout>-->
+</ContentPage>

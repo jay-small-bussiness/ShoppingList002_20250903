@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ShoppingList002.Views.EditCategoryPopupPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:viewmodels="clr-namespace:ShoppingList002.ViewModels"
+    xmlns:models="clr-namespace:ShoppingList002.Models.UiModels">
+    <VerticalStackLayout Spacing="15">
+        <Label Text="アイコン" FontSize="16" TextColor="SaddleBrown"/>
+        <Entry Text="{Binding EditingIcon}" 
+               Placeholder="アイコン" 
+               TextColor="DarkBlue"
+               FontSize="20"/>
+        <Label Text="カテゴリ名" FontSize="16" TextColor="SaddleBrown"/>
+        <Entry Text="{Binding EditingTitle}" 
+               Placeholder="カテゴリ名" 
+               TextColor="DarkBlue"
+               FontSize="20"/>
+
+        <Label Text="色を選択" FontSize="16" TextColor="SaddleBrown"/>
+        <CollectionView
+            x:Name="CollectionViewName"
+            ItemsSource="{Binding ColorOptions}"
+            SelectionMode="Single"
+            SelectedItem="{Binding SelectedColor, Mode=TwoWay}"
+            SelectionChanged="OnColorSelected">  
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame Padding="22" Margin="2"
+                        BackgroundColor="{Binding ColorValue}"
+                        CornerRadius="8"
+                        BorderColor="Transparent"
+                        InputTransparent="False">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer 
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodels:EditCategoryPopupViewModel}}, 
+                                Path=ColorTappedCommand}" CommandParameter="{Binding .}" />
+                        </Frame.GestureRecognizers>
+                        <!--<Label Text="{Binding Name}" HorizontalOptions="Center" VerticalOptions="Center" />-->
+                        <Frame.Triggers>
+                            <DataTrigger TargetType="Frame"
+                                 Binding="{Binding ., Mode=OneWay, 
+                                    Converter={StaticResource SelectedItemEqualityConverter}, 
+                                    ConverterParameter={x:Reference Name=CollectionViewName}}"
+                                 Value="True">
+                                <Setter Property="BorderColor" Value="Red" />
+                            </DataTrigger>
+                        </Frame.Triggers>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <!--<HorizontalStackLayout Padding="10" Spacing="10" HorizontalOptions="Center">
+    <Button Text="⏪ 取り消し"
+         Command="{Binding UndoLastPurchasedCommand}" />
+    <Button Text="📂 候補一覧"
+         Command="{Binding GoToCategoryPageCommand}" />
+</HorizontalStackLayout>-->
+
+        <HorizontalStackLayout Padding="10" Spacing="10" HorizontalOptions="Center">
+            <Button 
+                Text="📂 　保存　" 
+                Clicked="OnSaveClicked" 
+                BackgroundColor="LightSeaGreen"
+                Command="{Binding SaveCommand}" />
+            <Button 
+                Text="⏪ 取り消し" 
+                Clicked="OnCancelClicked" 
+                BackgroundColor="LightCoral"
+                Command="{Binding CancelCommand}" />
+
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

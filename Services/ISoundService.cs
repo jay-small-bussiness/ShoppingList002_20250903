@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ShoppingList002.Services
+{
+    public interface ISoundService
+    {
+        void Play(string soundName);
+    }
+
+}

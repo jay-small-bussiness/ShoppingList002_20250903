@@ -1,0 +1,4 @@
+--o="obj\Debug\net8.0-android\api.xml.class-parse"
+"Platforms\Android\Kana\KanaConverter.jar"
+"Platforms\Android\Kana\kuromoji-core-0.9.0.jar"
+"Platforms\Android\Kana\kuromoji-ipadic-0.9.0.jar"

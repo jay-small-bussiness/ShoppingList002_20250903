@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<toolkit:Popup
+    x:Class="ShoppingList002.Views.EditCandidateItemPopup"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+    Size="300,300">
+
+    <VerticalStackLayout Padding="20" Spacing="15">
+        <Label Text="名前" 
+            FontSize="16" 
+            TextColor="SaddleBrown"/>
+        <Entry x:Name="NameEntry" 
+            TextColor="DarkBlue"
+            FontSize="20"               
+            Placeholder="名前" 
+            Text="{Binding Name}" />
+        <Label Text="詳細" 
+            FontSize="16" 
+            TextColor="SaddleBrown"/>
+        <Entry x:Name="DetailEntry" 
+            TextColor="DarkBlue"
+            FontSize="20"               
+            Placeholder="詳細" 
+            Text="{Binding Detail}" />
+
+        <HorizontalStackLayout Spacing="10" HorizontalOptions="End">
+            <Button Text="キャンセル" Clicked="OnCancelClicked" />
+            <!--<Button Text="削除" Clicked="OnDeleteClicked" />-->
+            <Button Text="上書き" Clicked="OnSaveClicked" />
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</toolkit:Popup>

@@ -1,0 +1,83 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:viewmodels="clr-namespace:ShoppingList002.ViewModels"
+             xmlns:local="clr-namespace:ShoppingList002.Views"
+             x:Class="ShoppingList002.Views.ShoppingListPage"
+             Title="買い物リスト">
+    <Grid>
+        <Grid RowDefinitions="*,Auto"
+              Grid.Row="0">
+            <!-- これが通常の画面 -->
+            <!--<StackLayout>
+            <Grid RowDefinitions="*,Auto">-->
+            <!-- 上：スクロール, 下：固定 -->
+
+            <!-- スクロール可能なリスト -->
+            <CollectionView Grid.Row="0"
+                    ItemsSource="{Binding Items}"
+                    VerticalOptions="FillAndExpand">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Frame Padding="5" Margin="2" BackgroundColor="{Binding BackgroundColor}">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+                                <VerticalStackLayout Grid.Column="0">
+                                    <VerticalStackLayout.GestureRecognizers>
+                                        <TapGestureRecognizer
+                                            Tapped="OnItemTapped"
+                                            Command="{Binding Source={RelativeSource AncestorType={x:Type local:ShoppingListPage}}, Path=BindingContext.MarkAsPurchasedCommand}"
+                                            CommandParameter="{Binding ItemId}" />
+                                    </VerticalStackLayout.GestureRecognizers>
+                                    <Label Text="{Binding Name}" FontSize="20" />
+                                    <Label Text="{Binding Detail}" FontSize="12" TextColor="Gray" />
+                                    <Label Text="{Binding CategoryTitle}" FontSize="10" TextColor="DarkSlateGray" />
+                                </VerticalStackLayout>
+                                <Button Grid.Column="1"
+                                Text="✔"
+                                Padding="5"
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type local:ShoppingListPage}}, Path=BindingContext.MarkAsPurchasedCommand}"
+                                CommandParameter="{Binding ItemId}" />
+                            </Grid>
+                        </Frame>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+            <!-- 下部固定ボタン -->
+            <HorizontalStackLayout Grid.Row="1"
+                Padding="10"
+                Spacing="10"
+                HorizontalOptions="Center">
+                <Button Text="🔍ボイス検索"
+                    Command="{Binding OpenVoiceSearchCommand}"
+                    BackgroundColor="LightBlue"
+                    TextColor="Black"
+                    CornerRadius="10" />
+                <Button Text="📂 ｶﾃｺﾞﾘﾘｽﾄ"
+                    BackgroundColor="LightSeaGreen"
+                    Command="{Binding GoToCategoryPageCommand}" 
+                    Clicked="OnGoToCandidatesClicked" />
+                <Button Text="⏪ 取り消し"
+                    BackgroundColor="LightCoral"
+                    Command="{Binding UndoLastPurchasedCommand}" />
+            </HorizontalStackLayout>
+            <!-- 半透明オーバーレイ -->
+            <Grid x:Name="TutorialOverlaySL01"
+                BackgroundColor="#88000000"
+                IsVisible="False">
+                <Frame x:Name="TutorialFrame"
+                    Padding="10"
+                    BackgroundColor="White"
+                    CornerRadius="10"
+                    Margin="20">
+                    <Label x:Name="TutorialTextLabel"
+                    FontSize="Medium"
+                    TextColor="Black" />
+                </Frame>
+            </Grid>
+        </Grid>
+    </Grid>
+</ContentPage>

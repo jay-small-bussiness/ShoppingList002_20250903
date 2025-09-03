@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ShoppingList002.Views.SettingsPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:viewmodels="clr-namespace:ShoppingList002.ViewModels"
+    Title="設定">
+
+    <!-- ✅ ViewModelをXAMLでバインド -->
+    <!--<ContentPage.BindingContext>
+        <viewmodels:SettingsPageViewModel />
+    </ContentPage.BindingContext>-->
+
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="25">
+
+            <Label Text="削除済みデータの保存期間"
+                   FontSize="18"
+                   FontAttributes="Bold" />
+
+            <!-- ✅ 選択肢を表示 -->
+            <!--<Picker Title="保存期間を選択"
+                    ItemsSource="{Binding RetentionOptions}"
+                    SelectedItem="{Binding SelectedRetention, Mode=TwoWay}" />-->
+            <Picker Title="保存期間を選択"
+                HeightRequest="50"
+                SelectedItem="{Binding SelectedRetention, Mode=TwoWay}">
+                <Picker.Items>
+                    <x:String>1ヶ月</x:String>
+                    <x:String>半年</x:String>
+                    <x:String>1年</x:String>
+                    <x:String>5年</x:String>
+                </Picker.Items>
+            </Picker>
+            <BoxView HeightRequest="1" Color="Gray" />
+
+            <HorizontalStackLayout HorizontalOptions="Center" Spacing="20">
+                <Button Text="キャンセル"
+                        Command="{Binding CancelCommand}" />
+                <Button Text="設定を保存"
+                        Command="{Binding SaveCommand}"
+                        BackgroundColor="LightGreen" />
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

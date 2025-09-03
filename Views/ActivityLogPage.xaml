@@ -1,0 +1,98 @@
+<ContentPage
+    x:Class="ShoppingList002.Views.ActivityLogPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:viewmodels="clr-namespace:ShoppingList002.ViewModels"
+    Title="行動履歴">
+
+    <!--<ContentPage.BindingContext>
+        <viewmodels:ActivityLogPageViewModel />
+    </ContentPage.BindingContext>-->
+
+    <VerticalStackLayout Padding="15" Spacing="15">
+
+        <!-- フィルターボタン -->
+        <Grid ColumnSpacing="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button Text="リスト追加" 
+                TextColor="DarkBlue"
+                Command="{Binding ToggleAddCommand}"
+                BackgroundColor="{Binding AddSelected, Converter={StaticResource BoolToColorConverter}, ConverterParameter=リスト追加}"
+                Grid.Column="0" />
+
+            <Button Text="リスト削除" 
+                TextColor="DarkBlue"
+                Command="{Binding ToggleDeleteCommand}"
+                BackgroundColor="{Binding DeleteSelected, Converter={StaticResource BoolToColorConverter}, ConverterParameter=リスト削除}"
+                Grid.Column="1" />
+            <Button Text="購入" 
+                TextColor="DarkBlue"
+                Command="{Binding TogglePurchasedCommand}"
+                BackgroundColor="{Binding PurchasedSelected, Converter={StaticResource BoolToColorConverter}, ConverterParameter=購入}"
+                Grid.Column="2" />
+            <!--<Button Text="追加" 
+                    Command="{Binding ToggleAddCommand}"
+                    BackgroundColor="{Binding AddSelected, Converter={StaticResource BoolToColorConverter}}" 
+                    Grid.Column="0" />-->
+
+            <!--<Button Text="削除"
+                    Command="{Binding ToggleDeleteCommand}"
+                    BackgroundColor="{Binding DeleteSelected, Converter={StaticResource BoolToColorConverter}}" 
+                    Grid.Column="1" />
+
+            <Button Text="購入"
+                    Command="{Binding TogglePurchasedCommand}"
+                    BackgroundColor="{Binding PurchasedSelected, Converter={StaticResource BoolToColorConverter}}" 
+                    Grid.Column="2" />-->
+        </Grid>
+
+        <!-- 表示期間選択 -->
+        <HorizontalStackLayout Spacing="10">
+            <Label Text="表示期間:" VerticalOptions="Center" />
+            <Picker ItemsSource="{Binding PeriodOptions}" 
+                    SelectedItem="{Binding SelectedPeriod}" />
+        </HorizontalStackLayout>
+
+        <!-- ログ表示 -->
+        <CollectionView ItemsSource="{Binding FilteredLogs}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                        <HorizontalStackLayout>
+                            <Label Text="{Binding Timestamp}" FontSize="12" VerticalOptions="Center" />
+                                <Frame Padding="3" Margin="0"
+                                                BackgroundColor="{Binding ActionType, Converter={StaticResource ActionTypeToBackgroundColorConverter}}"
+                                                CornerRadius="10" VerticalOptions="Center">
+                                    <Label Text="{Binding ActionType}" FontSize="14" FontAttributes="Bold" />
+                                </Frame>
+                            <Label Text="{Binding ItemName}" FontSize="14" VerticalOptions="Center"/>
+                            <Label Text="{Binding CategoryName}" FontSize="12" VerticalOptions="Center"/>
+                            <Label Text="{Binding Actor}" FontSize="12" HorizontalOptions="End" VerticalOptions="Center"/>
+                        </HorizontalStackLayout>
+                    <!--<StackLayout Padding="10" Spacing="2">
+                        --><!-- 1行目：日時・アクション・品名 --><!--
+                        <StackLayout Orientation="Horizontal" Spacing="5">
+                            <Label Text="{Binding Timestamp}" FontAttributes="Bold" TextColor="DarkGray" FontSize="10" />
+                            <Label Text="{Binding ActionType}"
+                                TextColor="{Binding ActionType, Converter={StaticResource ActionTypeToColorConverter}}"
+                                FontAttributes="Bold" FontSize="11"/>
+                            <Label Text="{Binding ItemName}" FontSize="14" FontAttributes="Bold"/>
+                            --><!--<Label Text="カテゴリ:" FontAttributes="Italic"/>--><!--
+                            <Label Text="{Binding CategoryName}" TextColor="DarkGray" />
+                            --><!--<Label Text="操作:" FontAttributes="Italic"/>--><!--
+                            <Label Text="{Binding Actor}" FontSize="9"/>
+                        </StackLayout>
+
+                        --><!-- 2行目：カテゴリ・操作者 --><!--
+                        <StackLayout Orientation="Horizontal" Spacing="10" Padding="20,0,0,0">
+                        </StackLayout>--><!--
+                    </StackLayout>-->
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+    </VerticalStackLayout>
+</ContentPage>

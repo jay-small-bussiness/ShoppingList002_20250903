@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShoppingList002.Views.CandidateListPage"
+             xmlns:local="clr-namespace:ShoppingList002.Views"
+             xmlns:viewmodels="clr-namespace:ShoppingList002.ViewModels"
+             Title="候補リスト"
+            Padding="0,-15,0,0">
+    <Grid RowDefinitions="Auto,*,Auto,Auto"
+        Padding="10" RowSpacing="10">
+
+        <Grid Grid.Row="0" ColumnDefinitions="*,Auto" Padding="0" Margin="0">
+            <Frame
+                Padding="6,2"
+                CornerRadius="5"
+                BackgroundColor="LightBlue"
+                BorderColor="Gray"
+                HasShadow="False"
+                VerticalOptions="Center"
+                HorizontalOptions="Start">
+                <HorizontalStackLayout>
+                    <Label Text="{Binding CategoryTitleWithEmoji}"
+                        FontSize="19"
+                        FontAttributes="Bold"
+                        Margin="0"
+                        Padding="0"
+                        VerticalOptions="Center" />
+                    <Label Text="{Binding CategoryTitle}"
+                        FontSize="19"
+                        FontAttributes="Bold"
+                        Margin="0"
+                        Padding="0"
+                        VerticalOptions="Center" />
+                </HorizontalStackLayout>
+            </Frame>
+            <Button Text="{Binding EditButtonText}"
+                Command="{Binding ToggleEditModeCommand}"
+                WidthRequest="150"
+                FontSize="14"
+                Padding="6,2"
+                HorizontalOptions="End"
+                VerticalOptions="Center"
+                BackgroundColor="Transparent"
+                TextColor="DarkSlateBlue"
+                LineBreakMode="TailTruncation" />
+
+            <!--<Button Text="{Binding EditButtonText}"
+                FontSize="14"
+                Padding="4,2"
+                WidthRequest="300"
+
+                BackgroundColor="Transparent"
+                HorizontalOptions="End"
+                VerticalOptions="Center" 
+                Grid.Column="1" />-->
+        </Grid>
+
+        <!--<Label Text="{Binding CategoryTitle}" FontSize="20" Grid.Row="0" />-->
+        <CollectionView 
+            ItemsSource="{Binding Items}"
+            Grid.Row="1"
+            VerticalOptions="FillAndExpand">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame BackgroundColor="{Binding BackgroundColor}"
+                        Margin="5"
+                        Padding="10">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer
+                                Command="{Binding 
+                                    Source={RelativeSource 
+                                    AncestorType={x:Type local:CandidateListPage}}, 
+                                    Path=BindingContext.OnItemTappedCommand}"
+                                CommandParameter="{Binding .}" />
+
+                        </Frame.GestureRecognizers>
+                        <Grid ColumnDefinitions="*,Auto">
+                            <StackLayout Grid.Column="0">
+                                <Label Text="{Binding Name}" FontSize="16" />
+                                <Label Text="{Binding Detail}" FontSize="12" TextColor="Gray" />
+                            </StackLayout>
+
+                            <!-- 編集モード中だけ表示 -->
+                            <HorizontalStackLayout Spacing="5"
+                                Grid.Column="1"
+                                IsVisible="{Binding Source={RelativeSource AncestorType={x:Type local:CandidateListPage}}, Path=BindingContext.IsEditMode}"
+                                VerticalOptions="Center">
+                                <Button Text="⬆️"
+                                    FontSize="32"
+                                    HeightRequest="40"
+                                    WidthRequest="40"
+                                    Padding="0"
+                                    BackgroundColor="{Binding BackgroundColor}"    
+                                    Command="{Binding Source={RelativeSource 
+                                        AncestorType={x:Type local:CandidateListPage}}, 
+                                        Path=BindingContext.MoveItemUpCommand}"                                        
+                                    CommandParameter="{Binding .}" />
+                                <Button Text="⬇️"
+                                    FontSize="32"
+                                    HeightRequest="40"
+                                    WidthRequest="40"
+                                    Padding="0"
+                                    BackgroundColor="{Binding BackgroundColor}"    
+                                    Command="{Binding Source={RelativeSource 
+                                        AncestorType={x:Type local:CandidateListPage}}, 
+                                        Path=BindingContext.MoveItemDownCommand}"                                        
+                                    CommandParameter="{Binding .}" />
+                                <Button Text="⋯"
+                                    FontSize="20"
+                                    HeightRequest="32"
+                                    WidthRequest="32"
+                                    Padding="0"
+                                    TextColor="DarkBlue"
+                                    BackgroundColor="{Binding BackgroundColor}"
+                                    Command="{Binding Source={RelativeSource AncestorType={x:Type local:CandidateListPage}}, Path=BindingContext.ShowItemMenuCommand}"
+                                    CommandParameter="{Binding .}"
+                                    IsVisible="{Binding Source={RelativeSource AncestorType={x:Type local:CandidateListPage}}, Path=BindingContext.IsEditMode}" />
+
+                            </HorizontalStackLayout>
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+        <Button
+            Grid.Row="2"
+            Text="🛒 買い物リスト"
+            Command="{Binding GoToShoppingListCommand}"
+            BackgroundColor="DarkSlateBlue"
+            TextColor="White"
+            Padding="12"
+            CornerRadius="10"
+            Margin="10" />
+        <Button
+            Text="➕ 項目追加"
+            IsVisible="{Binding IsEditMode}"
+            Clicked="OnAddClicked"
+            BackgroundColor="DarkGreen"
+            TextColor="White"
+            CornerRadius="8"
+            Padding="12"
+            Grid.Row="2"
+            Margin="0,10,0,0" />
+    </Grid>
+
+</ContentPage>

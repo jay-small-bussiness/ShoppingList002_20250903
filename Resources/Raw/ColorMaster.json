@@ -1,0 +1,65 @@
+﻿[
+  {
+    "ColorId": 1,
+    "ColorName": "Blue",
+    "UnSelectedHexCode": "#dbedff",
+    "SelectedHexCode": "#7fbfff",
+    "PreSelectedHexCode": "#abb1b5"
+  },
+  {
+    "ColorId": 2,
+    "ColorName": "BluePurple",
+    "UnSelectedHexCode": "#b7b7ff",
+    "SelectedHexCode": "#7f7fff",
+    "PreSelectedHexCode": "#abb1b5"
+  },
+  {
+    "ColorId": 3,
+    "ColorName": "Green",
+    "UnSelectedHexCode": "#d1ffd1",
+    "SelectedHexCode": "#7fff7f",
+    "PreSelectedHexCode": "#abb1b5"
+  },
+  {
+    "ColorId": 4,
+    "ColorName": "Lavender",
+    "UnSelectedHexCode": "#dbb7ff",
+    "SelectedHexCode": "#bf7fff",
+    "PreSelectedHexCode": "#abb1b5"
+  },
+  {
+    "ColorId": 5,
+    "ColorName": "Orange",
+    "UnSelectedHexCode": "#ffdbb7",
+    "SelectedHexCode": "#ffbf7f",
+    "PreSelectedHexCode": "#abb1b5"
+  },
+  {
+    "ColorId": 6,
+    "ColorName": "Pink",
+    "UnSelectedHexCode": "#ffb7db",
+    "SelectedHexCode": "#ff7fbf",
+    "PreSelectedHexCode": "#abb1b5"
+  },
+  {
+    "ColorId": 7,
+    "ColorName": "Rose",
+    "UnSelectedHexCode": "#ffb7b7",
+    "SelectedHexCode": "#ff7f7f",
+    "PreSelectedHexCode": "#abb1b5"
+  },
+  {
+    "ColorId": 8,
+    "ColorName": "Yellow",
+    "UnSelectedHexCode": "#ffffe5",
+    "SelectedHexCode": "#ffff7f",
+    "PreSelectedHexCode": "#abb1b5"
+  },
+  {
+    "ColorId": 9,
+    "ColorName": "YellowGreen",
+    "UnSelectedHexCode": "#dbffb7",
+    "SelectedHexCode": "#bfff7f",
+    "PreSelectedHexCode": "#abb1b5"
+  }
+]

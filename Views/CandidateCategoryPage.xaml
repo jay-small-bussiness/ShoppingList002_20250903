@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="ShoppingList002.Views.CandidateCategoryPage"
+    x:Name="ThisPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:local="clr-namespace:ShoppingList002.Views"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:viewmodels="clr-namespace:ShoppingList002.ViewModels"
+    Title="カテゴリリスト">
+    <!--<Button Text="Test" Command="{Binding TestCommand}" />-->
+    <Grid RowDefinitions="Auto,*,Auto,Auto"
+        Padding="5" RowSpacing="-15">
+        <Grid Grid.Row="0" ColumnDefinitions="Auto,Auto,*" Padding="0" Margin="0">
+            <!-- 編集モード中だけ表示される「＋新規カテゴリ」 -->
+            <Button Text="＋新規カテゴリ"
+                Grid.Column="0"
+                Command="{Binding AddNewCategoryCommand}"
+                WidthRequest="150"
+                FontSize="16"
+                Padding="6,2"
+                HorizontalOptions="Start"
+                VerticalOptions="Center"
+                BackgroundColor="Transparent"
+                TextColor="DarkSlateBlue"
+                IsVisible="{Binding IsEditMode}" />
+            <Button Text="{Binding EditButtonText}"
+                Grid.Column="2"
+                Command="{Binding ToggleEditModeCommand}"
+                WidthRequest="150"
+                FontSize="16"
+                Padding="6,2"
+                HorizontalOptions="End"
+                VerticalOptions="Center"
+                BackgroundColor="Transparent"
+                TextColor="DarkSlateBlue"
+                LineBreakMode="TailTruncation" />
+        </Grid>
+        <CollectionView 
+            ItemsSource="{Binding Categories}"
+            Grid.Row="1"
+            SelectionMode="None">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Frame x:Name="CategoryFrame" Padding="13.5" Margin="5" BackgroundColor="{Binding BackgroundColor}">
+                        <Frame.GestureRecognizers>
+                            <TapGestureRecognizer
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type local:CandidateCategoryPage}}, Path=BindingContext.CategoryTappedCommand}"
+                                CommandParameter="{Binding .}" />
+                        </Frame.GestureRecognizers>
+
+                        <Grid ColumnDefinitions="*,Auto">
+                            <HorizontalStackLayout Grid.Column="0">
+                                <Label Text="{Binding IconName}" FontSize="24" Margin="0,0,10,0"/>
+                                <Label Text="{Binding Title}" FontSize="20" VerticalOptions="Center" />
+                            </HorizontalStackLayout>
+                            <HorizontalStackLayout Spacing="5"
+                                Grid.Column="1"
+                                IsVisible="{Binding Source={RelativeSource AncestorType={x:Type local:CandidateCategoryPage}}, Path=BindingContext.IsEditMode}"
+                                VerticalOptions="Center">
+                                <!-- …メニュー追加 -->
+                                <Button Text="⬆️"
+                                    FontSize="26"
+                                    HeightRequest="33"
+                                    WidthRequest="33"
+                                    Padding="0"
+                                    BackgroundColor="{Binding BackgroundColor}"    
+                                    Command="{Binding Source={RelativeSource 
+                                        AncestorType={x:Type local:CandidateCategoryPage}}, 
+                                        Path=BindingContext.MoveItemUpCommand}"                                        
+                                    CommandParameter="{Binding .}" />
+                                <Button Text="⬇️"
+                                    FontSize="26"
+                                    HeightRequest="33"
+                                    WidthRequest="33"
+                                    Padding="0"
+                                    BackgroundColor="{Binding BackgroundColor}"    
+                                    Command="{Binding Source={RelativeSource 
+                                        AncestorType={x:Type local:CandidateCategoryPage}}, 
+                                        Path=BindingContext.MoveItemDownCommand}"                                        
+                                    CommandParameter="{Binding .}" />
+                                <!--<Button Text="⋯"
+                                    FontSize="20"
+                                    HeightRequest="32"
+                                    WidthRequest="32"
+                                    Padding="0"
+                                    TextColor="DarkBlue"
+                                    BackgroundColor="{Binding BackgroundColor}"
+                                    Clicked="OnCategoryMenuClicked" />-->
+                                    <!--BackgroundColor="{Binding BackgroundColor}"-->
+                                <Button Text="⋯"
+                                    FontSize="20"
+                                    HeightRequest="32"
+                                    WidthRequest="32"
+                                    Padding="0"
+                                    TextColor="DarkBlue"
+                                    BackgroundColor="{Binding BackgroundColor}"
+                                    Command="{Binding Source={RelativeSource AncestorType={x:Type local:CandidateCategoryPage}}, 
+                                    Path=BindingContext.ShowCategoryMenuCommand}"
+                                    CommandParameter="{Binding .}" />       
+                            </HorizontalStackLayout>
+                            <!-- 半透明オーバーレイ -->
+                            <Grid x:Name="TutorialOverlayCP01"
+                                BackgroundColor="#88000000"
+                                IsVisible="False">
+                                <Frame x:Name="TutorialFrame"
+                                    Padding="10"
+                                    BackgroundColor="White"
+                                    CornerRadius="10"
+                                    Margin="20">
+                                <Label x:Name="TutorialTextLabel"
+                                    FontSize="Medium"
+                    TextColor="Black" />
+                                </Frame>
+                            </Grid>
+                        </Grid>
+                    </Frame>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </Grid>
+   
+</ContentPage>
+<!--<TapGestureRecognizer
+    Command="{Binding Source={RelativeSource AncestorType={x:Type local:CandidateCategoryPage}}, Path=BindingContext.OnCategoryTappedCommand}"
+    CommandParameter="{Binding .}" />-->

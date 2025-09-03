@@ -1,0 +1,487 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ShoppingList002</name>
+    </assembly>
+    <members>
+        <member name="T:ShoppingList002.Models.UiModels.CandidateListItemUiModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:ShoppingList002.Models.UiModels.CandidateListItemUiModel.Name">
+            <inheritdoc cref="F:ShoppingList002.Models.UiModels.CandidateListItemUiModel.name"/>
+        </member>
+        <member name="P:ShoppingList002.Models.UiModels.CandidateListItemUiModel.Detail">
+            <inheritdoc cref="F:ShoppingList002.Models.UiModels.CandidateListItemUiModel.detail"/>
+        </member>
+        <member name="P:ShoppingList002.Models.UiModels.CandidateListItemUiModel.DisplaySeq">
+            <inheritdoc cref="F:ShoppingList002.Models.UiModels.CandidateListItemUiModel.displaySeq"/>
+        </member>
+        <member name="P:ShoppingList002.Models.UiModels.CandidateListItemUiModel.ColorId">
+            <inheritdoc cref="F:ShoppingList002.Models.UiModels.CandidateListItemUiModel.colorId"/>
+        </member>
+        <member name="P:ShoppingList002.Models.UiModels.CandidateListItemUiModel.IsInShoppingList">
+            <inheritdoc cref="F:ShoppingList002.Models.UiModels.CandidateListItemUiModel.isInShoppingList"/>
+        </member>
+        <member name="P:ShoppingList002.Models.UiModels.CandidateListItemUiModel.BackgroundColor">
+            <inheritdoc cref="F:ShoppingList002.Models.UiModels.CandidateListItemUiModel.backgroundColor"/>
+        </member>
+        <member name="T:ShoppingList002.Models.UiModels.ShoppingListUiModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:ShoppingList002.Models.UiModels.ShoppingListUiModel.ItemId">
+            <inheritdoc cref="F:ShoppingList002.Models.UiModels.ShoppingListUiModel.itemId"/>
+        </member>
+        <member name="P:ShoppingList002.Models.UiModels.ShoppingListUiModel.Name">
+            <inheritdoc cref="F:ShoppingList002.Models.UiModels.ShoppingListUiModel.name"/>
+        </member>
+        <member name="P:ShoppingList002.Models.UiModels.ShoppingListUiModel.Detail">
+            <inheritdoc cref="F:ShoppingList002.Models.UiModels.ShoppingListUiModel.detail"/>
+        </member>
+        <member name="P:ShoppingList002.Models.UiModels.ShoppingListUiModel.CategoryId">
+            <inheritdoc cref="F:ShoppingList002.Models.UiModels.ShoppingListUiModel.categoryId"/>
+        </member>
+        <member name="P:ShoppingList002.Models.UiModels.ShoppingListUiModel.CategoryTitle">
+            <inheritdoc cref="F:ShoppingList002.Models.UiModels.ShoppingListUiModel.categoryTitle"/>
+        </member>
+        <member name="M:ShoppingList002.Platforms.Android.AndroidKanaBridge.SetUserDictionary(System.String)">
+            <summary>
+            CSV本文をJavaに渡してユーザー辞書を設定
+            </summary>
+        </member>
+        <member name="T:ShoppingList002.ViewModels.ActivityLogPageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ShoppingList002.ViewModels.ActivityLogPageViewModel.SelectedPeriod">
+            <inheritdoc cref="F:ShoppingList002.ViewModels.ActivityLogPageViewModel.selectedPeriod"/>
+        </member>
+        <member name="P:ShoppingList002.ViewModels.ActivityLogPageViewModel.AddSelected">
+            <inheritdoc cref="F:ShoppingList002.ViewModels.ActivityLogPageViewModel.addSelected"/>
+        </member>
+        <member name="P:ShoppingList002.ViewModels.ActivityLogPageViewModel.DeleteSelected">
+            <inheritdoc cref="F:ShoppingList002.ViewModels.ActivityLogPageViewModel.deleteSelected"/>
+        </member>
+        <member name="P:ShoppingList002.ViewModels.ActivityLogPageViewModel.PurchasedSelected">
+            <inheritdoc cref="F:ShoppingList002.ViewModels.ActivityLogPageViewModel.purchasedSelected"/>
+        </member>
+        <member name="M:ShoppingList002.ViewModels.ActivityLogPageViewModel.OnSelectedPeriodChanged(System.String)">
+            <summary>Executes the logic for when <see cref="P:ShoppingList002.ViewModels.ActivityLogPageViewModel.SelectedPeriod"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:ShoppingList002.ViewModels.ActivityLogPageViewModel.SelectedPeriod"/> is changed.</remarks>
+        </member>
+        <member name="M:ShoppingList002.ViewModels.ActivityLogPageViewModel.OnAddSelectedChanged(System.Boolean)">
+            <summary>Executes the logic for when <see cref="P:ShoppingList002.ViewModels.ActivityLogPageViewModel.AddSelected"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:ShoppingList002.ViewModels.ActivityLogPageViewModel.AddSelected"/> is changed.</remarks>
+        </member>
+        <member name="M:ShoppingList002.ViewModels.ActivityLogPageViewModel.OnDeleteSelectedChanged(System.Boolean)">
+            <summary>Executes the logic for when <see cref="P:ShoppingList002.ViewModels.ActivityLogPageViewModel.DeleteSelected"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:ShoppingList002.ViewModels.ActivityLogPageViewModel.DeleteSelected"/> is changed.</remarks>
+        </member>
+        <member name="M:ShoppingList002.ViewModels.ActivityLogPageViewModel.OnPurchasedSelectedChanged(System.Boolean)">
+            <summary>Executes the logic for when <see cref="P:ShoppingList002.ViewModels.ActivityLogPageViewModel.PurchasedSelected"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:ShoppingList002.ViewModels.ActivityLogPageViewModel.PurchasedSelected"/> is changed.</remarks>
+        </member>
+        <member name="F:ShoppingList002.ViewModels.ActivityLogPageViewModel.toggleAddCommand">
+            <summary>The backing field for <see cref="P:ShoppingList002.ViewModels.ActivityLogPageViewModel.ToggleAddCommand"/>.</summary>
+        </member>
+        <member name="P:ShoppingList002.ViewModels.ActivityLogPageViewModel.ToggleAddCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ShoppingList002.ViewModels.ActivityLogPageViewModel.ToggleAdd"/>.</summary>
+        </member>
+        <member name="F:ShoppingList002.ViewModels.ActivityLogPageViewModel.toggleDeleteCommand">
+            <summary>The backing field for <see cref="P:ShoppingList002.ViewModels.ActivityLogPageViewModel.ToggleDeleteCommand"/>.</summary>
+        </member>
+        <member name="P:ShoppingList002.ViewModels.ActivityLogPageViewModel.ToggleDeleteCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ShoppingList002.ViewModels.ActivityLogPageViewModel.ToggleDelete"/>.</summary>
+        </member>
+        <member name="F:ShoppingList002.ViewModels.ActivityLogPageViewModel.togglePurchasedCommand">
+            <summary>The backing field for <see cref="P:ShoppingList002.ViewModels.ActivityLogPageViewModel.TogglePurchasedCommand"/>.</summary>
+        </member>
+        <member name="P:ShoppingList002.ViewModels.ActivityLogPageViewModel.TogglePurchasedCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:ShoppingList002.ViewModels.ActivityLogPageViewModel.TogglePurchased"/>.</summary>
+        </member>
+        <member name="F:ShoppingList002.ViewModels.ActivityLogPageViewModel.loadLogsCommand">
+            <summary>The backing field for <see cref="P:ShoppingList002.ViewModels.ActivityLogPageViewModel.LoadLogsCommand"/>.</summary>
+        </member>
+        <member name="P:ShoppingList002.ViewModels.ActivityLogPageViewModel.LoadLogsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ShoppingList002.ViewModels.ActivityLogPageViewModel.LoadLogsAsync"/>.</summary>
+        </member>
+        <member name="T:ShoppingList002.ViewModels.CandidateCategoryViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:ShoppingList002.ViewModels.CandidateCategoryViewModel.IsEditMode">
+            <inheritdoc cref="F:ShoppingList002.ViewModels.CandidateCategoryViewModel.isEditMode"/>
+        </member>
+        <member name="T:ShoppingList002.ViewModels.CandidateListPageViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:ShoppingList002.ViewModels.CandidateListPageViewModel.IsEditMode">
+            <inheritdoc cref="F:ShoppingList002.ViewModels.CandidateListPageViewModel.isEditMode"/>
+        </member>
+        <member name="P:ShoppingList002.ViewModels.CandidateListPageViewModel.CategoryTitle">
+            <inheritdoc cref="F:ShoppingList002.ViewModels.CandidateListPageViewModel.categoryTitle"/>
+        </member>
+        <member name="P:ShoppingList002.ViewModels.CandidateListPageViewModel.CategoryTitleWithEmoji">
+            <inheritdoc cref="F:ShoppingList002.ViewModels.CandidateListPageViewModel.categoryTitleWithEmoji"/>
+        </member>
+        <member name="P:ShoppingList002.ViewModels.CandidateListPageViewModel.ColorId">
+            <inheritdoc cref="F:ShoppingList002.ViewModels.CandidateListPageViewModel.colorId"/>
+        </member>
+        <member name="M:ShoppingList002.ViewModels.CandidateListPageViewModel.OnIsEditModeChanged(System.Boolean,System.Boolean)">
+            <summary>Executes the logic for when <see cref="P:ShoppingList002.ViewModels.CandidateListPageViewModel.IsEditMode"/> just changed.</summary>
+            <param name="oldValue">The previous property value that was replaced.</param>
+            <param name="newValue">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:ShoppingList002.ViewModels.CandidateListPageViewModel.IsEditMode"/> is changed.</remarks>
+        </member>
+        <member name="T:ShoppingList002.ViewModels.SettingsPageViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ShoppingList002.ViewModels.SettingsPageViewModel.SelectedRetention">
+            <inheritdoc cref="F:ShoppingList002.ViewModels.SettingsPageViewModel.selectedRetention"/>
+        </member>
+        <member name="F:ShoppingList002.ViewModels.SettingsPageViewModel.saveCommand">
+            <summary>The backing field for <see cref="P:ShoppingList002.ViewModels.SettingsPageViewModel.SaveCommand"/>.</summary>
+        </member>
+        <member name="P:ShoppingList002.ViewModels.SettingsPageViewModel.SaveCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ShoppingList002.ViewModels.SettingsPageViewModel.Save"/>.</summary>
+        </member>
+        <member name="F:ShoppingList002.ViewModels.SettingsPageViewModel.cancelCommand">
+            <summary>The backing field for <see cref="P:ShoppingList002.ViewModels.SettingsPageViewModel.CancelCommand"/>.</summary>
+        </member>
+        <member name="P:ShoppingList002.ViewModels.SettingsPageViewModel.CancelCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ShoppingList002.ViewModels.SettingsPageViewModel.Cancel"/>.</summary>
+        </member>
+        <member name="T:ShoppingList002.ViewModels.ShoppingListPageViewModel">
+            <inheritdoc/>
+        </member>
+        <member name="P:ShoppingList002.ViewModels.ShoppingListPageViewModel.Items">
+            <inheritdoc cref="F:ShoppingList002.ViewModels.ShoppingListPageViewModel.items"/>
+        </member>
+        <member name="T:ShoppingList002.ViewModels.VoiceSearchViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:ShoppingList002.ViewModels.VoiceSearchViewModel.CurrentState">
+            <inheritdoc cref="F:ShoppingList002.ViewModels.VoiceSearchViewModel.currentState"/>
+        </member>
+        <member name="P:ShoppingList002.ViewModels.VoiceSearchViewModel.ModeChipText">
+            <inheritdoc cref="F:ShoppingList002.ViewModels.VoiceSearchViewModel.modeChipText"/>
+        </member>
+        <member name="P:ShoppingList002.ViewModels.VoiceSearchViewModel.PromptText">
+            <inheritdoc cref="F:ShoppingList002.ViewModels.VoiceSearchViewModel.promptText"/>
+        </member>
+        <member name="P:ShoppingList002.ViewModels.VoiceSearchViewModel.HintText">
+            <inheritdoc cref="F:ShoppingList002.ViewModels.VoiceSearchViewModel.hintText"/>
+        </member>
+        <member name="P:ShoppingList002.ViewModels.VoiceSearchViewModel.LastRecognizedText">
+            <inheritdoc cref="F:ShoppingList002.ViewModels.VoiceSearchViewModel.lastRecognizedText"/>
+        </member>
+        <member name="P:ShoppingList002.ViewModels.VoiceSearchViewModel.CurrentMode">
+            <inheritdoc cref="F:ShoppingList002.ViewModels.VoiceSearchViewModel.currentMode"/>
+        </member>
+        <member name="F:ShoppingList002.ViewModels.VoiceSearchViewModel.retryCommand">
+            <summary>The backing field for <see cref="P:ShoppingList002.ViewModels.VoiceSearchViewModel.RetryCommand"/>.</summary>
+        </member>
+        <member name="P:ShoppingList002.ViewModels.VoiceSearchViewModel.RetryCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ShoppingList002.ViewModels.VoiceSearchViewModel.RetryAsync"/>.</summary>
+        </member>
+        <member name="F:ShoppingList002.ViewModels.VoiceSearchViewModel.closeCommand">
+            <summary>The backing field for <see cref="P:ShoppingList002.ViewModels.VoiceSearchViewModel.CloseCommand"/>.</summary>
+        </member>
+        <member name="P:ShoppingList002.ViewModels.VoiceSearchViewModel.CloseCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ShoppingList002.ViewModels.VoiceSearchViewModel.CloseAsync"/>.</summary>
+        </member>
+        <member name="F:ShoppingList002.ViewModels.VoiceSearchViewModel.stopListeningCommand">
+            <summary>The backing field for <see cref="P:ShoppingList002.ViewModels.VoiceSearchViewModel.StopListeningCommand"/>.</summary>
+        </member>
+        <member name="P:ShoppingList002.ViewModels.VoiceSearchViewModel.StopListeningCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ShoppingList002.ViewModels.VoiceSearchViewModel.StopListeningAsync"/>.</summary>
+        </member>
+        <member name="F:ShoppingList002.ViewModels.VoiceSearchViewModel.startListeningCommand">
+            <summary>The backing field for <see cref="P:ShoppingList002.ViewModels.VoiceSearchViewModel.StartListeningCommand"/>.</summary>
+        </member>
+        <member name="P:ShoppingList002.ViewModels.VoiceSearchViewModel.StartListeningCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:ShoppingList002.ViewModels.VoiceSearchViewModel.StartListeningAsync"/>.</summary>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_DatePicker.TextColorTo(Microsoft.Maui.Controls.DatePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Editor.TextColorTo(Microsoft.Maui.Controls.Editor,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Entry.TextColorTo(Microsoft.Maui.Controls.Entry,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_InputView.TextColorTo(Microsoft.Maui.Controls.InputView,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Label.TextColorTo(Microsoft.Maui.Controls.Label,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Picker.TextColorTo(Microsoft.Maui.Controls.Picker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_RadioButton.TextColorTo(Microsoft.Maui.Controls.RadioButton,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_SearchBar.TextColorTo(Microsoft.Maui.Controls.SearchBar,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_TimePicker.TextColorTo(Microsoft.Maui.Controls.TimePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <param name = "token"><see cref = "T:System.Threading.CancellationToken"/></param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Name">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Name" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Detail">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Detail" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.DisplaySeq">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "DisplaySeq" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ColorId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ColorId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsInShoppingList">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsInShoppingList" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.BackgroundColor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "BackgroundColor" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ItemId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ItemId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CategoryId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CategoryId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CategoryTitle">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CategoryTitle" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedPeriod">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedPeriod" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.AddSelected">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "AddSelected" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.DeleteSelected">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "DeleteSelected" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.PurchasedSelected">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "PurchasedSelected" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsEditMode">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsEditMode" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CategoryTitleWithEmoji">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CategoryTitleWithEmoji" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedRetention">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedRetention" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Items">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Items" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CurrentState">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CurrentState" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ModeChipText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ModeChipText" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.PromptText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "PromptText" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.HintText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "HintText" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.LastRecognizedText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "LastRecognizedText" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CurrentMode">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CurrentMode" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Name">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Name" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Detail">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Detail" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.DisplaySeq">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "DisplaySeq" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ColorId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ColorId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsInShoppingList">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsInShoppingList" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.BackgroundColor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "BackgroundColor" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ItemId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ItemId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CategoryId">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CategoryId" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CategoryTitle">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CategoryTitle" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedPeriod">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedPeriod" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.AddSelected">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "AddSelected" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.DeleteSelected">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "DeleteSelected" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.PurchasedSelected">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "PurchasedSelected" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsEditMode">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsEditMode" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CategoryTitleWithEmoji">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CategoryTitleWithEmoji" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedRetention">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedRetention" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Items">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Items" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CurrentState">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CurrentState" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ModeChipText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ModeChipText" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.PromptText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "PromptText" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.HintText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "HintText" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.LastRecognizedText">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "LastRecognizedText" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CurrentMode">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CurrentMode" generated properties.</summary>
+        </member>
+    </members>
+</doc>
